@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+<ThingDef ParentName="BaseBullet">
+<defName>Bullet_PF9mmSMG</defName>
+<label>9mm bullet</label>
+<graphicData>
+<texPath>Things/Projectile/Bullet_Small</texPath>
+<graphicClass>Graphic_Single</graphicClass>
+</graphicData>
+<projectile>
+<flyOverhead>false</flyOverhead>
+<damageDef>Bullet</damageDef>
+<damageAmountBase>9</damageAmountBase>
+<speed>65</speed>
+</projectile>
+</ThingDef>
+
+<ThingDef ParentName="BaseHumanMakeableGun">
+<defName>Gun_PF9mmSMG</defName>
+<label>9mm SMG</label>
+<description>A small fast firing inaccurate submachine gun, used more for spray-and-pray tactics than for any accurate shooting.</description>
+<graphicData>
+<texPath>Things/Fallout/Weapons/Guns/9mmSMG</texPath>
+<graphicClass>Graphic_Single</graphicClass>
+</graphicData>
+<soundInteract>Interact_SMG</soundInteract>
+<recipeMaker>
+	<researchPrerequisite>BlowbackOperation</researchPrerequisite>
+	<skillRequirements>
+		<Crafting>5</Crafting>
+	</skillRequirements>
+</recipeMaker>
+<weaponTags>
+	<li>SimpleGun</li>
+</weaponTags>
+<statBases>
+<WorkToMake>9000</WorkToMake>
+<Mass>2.25</Mass>
+<AccuracyTouch>0.88</AccuracyTouch>
+<AccuracyShort>0.63</AccuracyShort>
+<AccuracyMedium>0.33</AccuracyMedium>
+<AccuracyLong>0.15</AccuracyLong>
+<RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
+</statBases>
+<costList>
+<Steel>40</Steel>
+<ComponentIndustrial>3</ComponentIndustrial>
+</costList>
+<verbs>
+<li>
+<verbClass>Verb_Shoot</verbClass>
+<hasStandardCommand>true</hasStandardCommand>
+<defaultProjectile>Bullet_PF9mmSMG</defaultProjectile>
+<warmupTime>0.45</warmupTime>
+<range>18.9</range>
+<burstShotCount>4</burstShotCount>
+<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+<soundCast>Shot_MachinePistol</soundCast>
+<soundCastTail>GunTail_Light</soundCastTail>
+<muzzleFlashScale>9</muzzleFlashScale>
+</li>
+</verbs>
+<tools>
+	<li>
+		<label>grip</label>
+		<capacities>
+			<li>Blunt</li>
+		</capacities>
+		<power>9</power>
+		<cooldownTime>2</cooldownTime>
+	</li>
+	<li>
+		<label>barrel</label>
+		<capacities>
+			<li>Blunt</li>
+			<li>Poke</li>
+		</capacities>
+		<power>9</power>
+		<cooldownTime>2</cooldownTime>
+	</li>
+</tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+<defName>Bullet_PF10mmSMG</defName>
+<label>10mm bullet</label>
+<graphicData>
+<texPath>Things/Projectile/Bullet_Small</texPath>
+<graphicClass>Graphic_Single</graphicClass>
+</graphicData>
+<projectile>
+<flyOverhead>false</flyOverhead>
+<damageDef>Bullet</damageDef>
+<damageAmountBase>11</damageAmountBase>
+<speed>70</speed>
+</projectile>
+</ThingDef>
+
+<ThingDef ParentName="BaseHumanMakeableGun">
+<defName>Gun_PF10mmSMG</defName>
+<label>10mm SMG</label>
+<description>A hybrid between a Heavy SMG and a rapid fire Light SMG, the 10mm SMG is used for outputting plenty of rounds with moderate accuracy.</description>
+<graphicData>
+<texPath>Things/Fallout/Weapons/Guns/10mmSMG</texPath>
+<graphicClass>Graphic_Single</graphicClass>
+</graphicData>
+<soundInteract>Interact_SMG</soundInteract>
+<recipeMaker>
+	<researchPrerequisite>BlowbackOperation</researchPrerequisite>
+	<skillRequirements>
+		<Crafting>6</Crafting>
+	</skillRequirements>
+</recipeMaker>
+<weaponTags>
+	<li>SimpleGun</li>
+</weaponTags>
+<statBases>
+<WorkToMake>11500</WorkToMake>
+<Mass>2.6</Mass>
+<AccuracyTouch>0.85</AccuracyTouch>
+<AccuracyShort>0.65</AccuracyShort>
+<AccuracyMedium>0.45</AccuracyMedium>
+<AccuracyLong>0.25</AccuracyLong>
+<RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+</statBases>
+<costList>
+<Steel>55</Steel>
+<ComponentIndustrial>3</ComponentIndustrial>
+</costList>
+<verbs>
+<li>
+<verbClass>Verb_Shoot</verbClass>
+<hasStandardCommand>true</hasStandardCommand>
+<defaultProjectile>Bullet_PF10mmSMG</defaultProjectile>
+<warmupTime>0.6</warmupTime>
+<range>22.9</range>
+<burstShotCount>3</burstShotCount>
+<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+<soundCast>Shot_HeavySMG</soundCast>
+<!-- Above is a Placeholder Sound -->
+<soundCastTail>GunTail_Light</soundCastTail>
+<muzzleFlashScale>9</muzzleFlashScale>
+</li>
+</verbs>
+<tools>
+	<li>
+		<label>grip</label>
+		<capacities>
+			<li>Blunt</li>
+		</capacities>
+		<power>9</power>
+		<cooldownTime>2</cooldownTime>
+	</li>
+	<li>
+		<label>barrel</label>
+		<capacities>
+			<li>Blunt</li>
+			<li>Poke</li>
+		</capacities>
+		<power>9</power>
+		<cooldownTime>2</cooldownTime>
+	</li>
+</tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+<defName>Bullet_PFSleepyTyme</defName>
+<label>10mm bullet</label>
+<graphicData>
+<texPath>Things/Projectile/Bullet_Small</texPath>
+<graphicClass>Graphic_Single</graphicClass>
+</graphicData>
+<projectile>
+<flyOverhead>false</flyOverhead>
+<damageDef>Bullet</damageDef>
+<damageAmountBase>12</damageAmountBase>
+<speed>75</speed>
+</projectile>
+</ThingDef>
+
+<ThingDef ParentName="BaseHumanGun">
+<defName>Gun_PFSleepyTyme</defName>
+<label>SleepyTyme</label>
+<description>A unique 10mm SMG with an integrated surpressor and high quality parts.</description>
+<graphicData>
+<texPath>Things/Fallout/Weapons/Guns/SleepyTyme</texPath>
+<graphicClass>Graphic_Single</graphicClass>
+</graphicData>
+<soundInteract>Interact_SMG</soundInteract>
+<thingSetMakerTags>
+<li>RewardSpecial</li>
+</thingSetMakerTags>
+<statBases>
+<MarketValue>675</MarketValue>
+<Mass>2.55</Mass>
+<AccuracyTouch>0.86</AccuracyTouch>
+<AccuracyShort>0.66</AccuracyShort>
+<AccuracyMedium>0.46</AccuracyMedium>
+<AccuracyLong>0.26</AccuracyLong>
+<RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
+</statBases>
+<verbs>
+<li>
+<verbClass>Verb_Shoot</verbClass>
+<hasStandardCommand>true</hasStandardCommand>
+<defaultProjectile>Bullet_PFSleepyTyme</defaultProjectile>
+<warmupTime>0.55</warmupTime>
+<range>21.9</range>
+<burstShotCount>3</burstShotCount>
+<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+<soundCast>ShotSilenced</soundCast>
+<soundCastTail>GunTail_Light</soundCastTail>
+<muzzleFlashScale>9</muzzleFlashScale>
+</li>
+</verbs>
+<tools>
+	<li>
+		<label>grip</label>
+		<capacities>
+			<li>Blunt</li>
+		</capacities>
+		<power>9</power>
+		<cooldownTime>2</cooldownTime>
+	</li>
+	<li>
+		<label>barrel</label>
+		<capacities>
+			<li>Blunt</li>
+			<li>Poke</li>
+		</capacities>
+		<power>9</power>
+		<cooldownTime>2</cooldownTime>
+	</li>
+</tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+<defName>Bullet_PF12_7mmSMG</defName>
+<label>12.7mm bullet</label>
+<graphicData>
+<texPath>Things/Projectile/Bullet_Small</texPath>
+<graphicClass>Graphic_Single</graphicClass>
+</graphicData>
+<projectile>
+<flyOverhead>false</flyOverhead>
+<damageDef>Bullet</damageDef>
+<damageAmountBase>22</damageAmountBase>
+<speed>85</speed>
+</projectile>
+</ThingDef>
+
+<ThingDef ParentName="BaseHumanGun">
+<defName>Gun_PF12_7mmSMG</defName>
+<label>12.7mm SMG</label>
+<description>A heavier caliber SMG that packs more of a punch than other most, but has a slow rate of fire.</description>
+<graphicData>
+<texPath>Things/Fallout/Weapons/Guns/12.7mmSMG</texPath>
+<graphicClass>Graphic_Single</graphicClass>
+</graphicData>
+<soundInteract>Interact_SMG</soundInteract>
+<recipeMaker>
+<researchPrerequisite>GasOperation</researchPrerequisite>
+<skillRequirements>
+	<Crafting>7</Crafting>
+</skillRequirements>
+</recipeMaker>
+<weaponTags>
+	<li>SimpleGun</li>
+</weaponTags>
+<statBases>
+<WorkToMake>28000</WorkToMake>
+<Mass>3.75</Mass>
+<AccuracyTouch>0.80</AccuracyTouch>
+<AccuracyShort>0.60</AccuracyShort>
+<AccuracyMedium>0.40</AccuracyMedium>
+<AccuracyLong>0.17</AccuracyLong>
+<RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+</statBases>
+<costList>
+<Steel>70</Steel>
+<ComponentIndustrial>5</ComponentIndustrial>
+</costList>
+<verbs>
+<li>
+<verbClass>Verb_Shoot</verbClass>
+<hasStandardCommand>true</hasStandardCommand>
+<defaultProjectile>Bullet_PF12_7mmSMG</defaultProjectile>
+<warmupTime>1</warmupTime>
+<range>24.9</range>
+<burstShotCount>3</burstShotCount>
+<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+<soundCast>Shot_HeavySMG</soundCast>
+<soundCastTail>GunTail_Heavy</soundCastTail>
+<muzzleFlashScale>9</muzzleFlashScale>
+</li>
+</verbs>
+<tools>
+	<li>
+		<label>grip</label>
+		<capacities>
+			<li>Blunt</li>
+		</capacities>
+		<power>9</power>
+		<cooldownTime>2</cooldownTime>
+	</li>
+	<li>
+		<label>barrel</label>
+		<capacities>
+			<li>Blunt</li>
+			<li>Poke</li>
+		</capacities>
+		<power>9</power>
+		<cooldownTime>2</cooldownTime>
+	</li>
+</tools>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+<defName>Bullet_PF22SMG</defName>
+<label>.22LR bullet</label>
+<graphicData>
+<texPath>Things/Projectile/Bullet_Small</texPath>
+<graphicClass>Graphic_Single</graphicClass>
+</graphicData>
+<projectile>
+<flyOverhead>false</flyOverhead>
+<damageDef>Bullet</damageDef>
+<damageAmountBase>5</damageAmountBase>
+<speed>60</speed>
+</projectile>
+</ThingDef>
+
+<ThingDef ParentName="BaseHumanMakeableGun">
+<defName>Gun_PF22SMG</defName>
+<label> Silenced .22 SMG</label>
+<description>An SMG with an integrated silencer, with its small caliber it hits more weakly and works poorly at range, but has a very high fire rate.</description>
+<graphicData>
+<texPath>Things/Fallout/Weapons/Guns/Silenced22SMG</texPath>
+<graphicClass>Graphic_Single</graphicClass>
+</graphicData>
+<soundInteract>Interact_SMG</soundInteract>
+<recipeMaker>
+	<researchPrerequisite>BlowbackOperation</researchPrerequisite>
+	<skillRequirements>
+		<Crafting>7</Crafting>
+	</skillRequirements>
+</recipeMaker>
+<statBases>
+<WorkToMake>11000</WorkToMake>
+<Mass>2</Mass>
+<AccuracyTouch>0.75</AccuracyTouch>
+<AccuracyShort>0.46</AccuracyShort>
+<AccuracyMedium>0.3</AccuracyMedium>
+<AccuracyLong>0.16</AccuracyLong>
+<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+</statBases>
+<costList>
+<Steel>35</Steel>
+<ComponentIndustrial>4</ComponentIndustrial>
+</costList>
+<verbs>
+<li>
+<verbClass>Verb_Shoot</verbClass>
+<hasStandardCommand>true</hasStandardCommand>
+<defaultProjectile>Bullet_PF22SMG</defaultProjectile>
+<warmupTime>0.40</warmupTime>
+<range>20.9</range>
+<burstShotCount>7</burstShotCount>
+<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+<soundCast>ShotSilenced</soundCast>
+<soundCastTail>GunTail_Light</soundCastTail>
+<muzzleFlashScale>9</muzzleFlashScale>
+</li>
+</verbs>
+<tools>
+	<li>
+		<label>grip</label>
+		<capacities>
+			<li>Blunt</li>
+		</capacities>
+		<power>9</power>
+		<cooldownTime>2</cooldownTime>
+	</li>
+	<li>
+		<label>barrel</label>
+		<capacities>
+			<li>Blunt</li>
+			<li>Poke</li>
+		</capacities>
+		<power>9</power>
+		<cooldownTime>2</cooldownTime>
+	</li>
+</tools>
+</ThingDef>
+
+</Defs>

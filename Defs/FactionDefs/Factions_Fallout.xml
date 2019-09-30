@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+	<FactionDef Name="HumanFactionBase">
+		<defName>PFVaultFaction</defName>
+		<label>Vault Dwellers</label>
+		<description>A community of genetically pure humans living underground, their ancestors fled to the bunkers before or during the apocalypse which devastated the planet in the distant past.
+After centuries of isolation underground, the bunker residents have opened their doors out of need for essential supplies, which could only be obtained from outside suppliers and the looting of failed bunkers. The need for genetic diversity is also a motivating factor for the normally ethnocentric and distrusting shelter dwellers to interact with contaminated surface squatters. 
+They are equipped in synthread outfits, most commonly jumpsuits, and wield gunpowder and laser weapons, either carefully maintained since before the apocalypse, or bought from outside merchants.</description>
+		<pawnSingular>Vault Dweller</pawnSingular>
+		<pawnsPlural>Vault Dwellers</pawnsPlural>
+		<listOrderPriority>40</listOrderPriority>
+		<settlementGenerationWeight>0.25</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Overseer</leaderTitle>
+		<expandingIconTexture>World/Faction/VaultGear</expandingIconTexture>
+		<geneticVariance>0.8</geneticVariance>
+		<startingGoodwill>
+			<min>10</min>
+			<max>50</max>
+		</startingGoodwill>
+		<factionNameMaker>PFNamerFactionVaults</factionNameMaker>
+		<settlementNameMaker>PFNamerSettlementVaults</settlementNameMaker>
+		<techLevel>Spacer</techLevel>
+		<backstoryCategories>
+		<li>Civil</li>
+		<li>Spacer</li>
+		</backstoryCategories>
+		<hairTags>
+			<li>Urban</li>
+			<li>Rural</li>
+		</hairTags>
+		<naturalColonyGoodwill>
+			<min>-20</min>
+			<max>10</max>
+		</naturalColonyGoodwill>
+		<caravanTraderKinds>
+			<li>Caravan_Vault_BulkGoods</li>
+			<li>Caravan_Vault_CombatSupplier</li>
+			<li>Caravan_Vault_Exotic</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_Vault_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Vault_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>
+			<min>-45</min>
+			<max>50</max>
+		</allowedArrivalTemperatureRange>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,70</li>
+				<li>(70,100)</li>
+				<li>(700,200)</li>
+				<li>1300,300</li>
+				<li>100000,12500</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<options>
+					<PFVaultDweller>7</PFVaultDweller>
+					<PFVaultSecurityGuard>13</PFVaultSecurityGuard>
+					<PFVaultOverseer>7</PFVaultOverseer>
+					<Mercenary_Gunner>10</Mercenary_Gunner>
+					<Mercenary_Elite>10</Mercenary_Elite>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<PFVaultDweller>10</PFVaultDweller>
+					<PFVaultSecurityGuard>10</PFVaultSecurityGuard>
+					<PFVaultOverseer>10</PFVaultOverseer>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<PFVaultMerchant>1</PFVaultMerchant>
+				</traders>
+				<carriers>
+					<PFBrahmin>2</PFBrahmin>
+				</carriers>
+				<guards>
+					<PFVaultSecurityGuard>25</PFVaultSecurityGuard>
+					<Mercenary_Gunner>10</Mercenary_Gunner>
+					<Mercenary_Elite>10</Mercenary_Elite>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<PFVaultDweller>15</PFVaultDweller>
+					<PFVaultSecurityGuard>20</PFVaultSecurityGuard>
+					<PFVaultScientist>10</PFVaultScientist>
+					<PFVaultOverseer>10</PFVaultOverseer>
+					<Mercenary_Elite>10</Mercenary_Elite>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<homeIconPath>World/Faction/VaultGear</homeIconPath>
+	</FactionDef>
+
+<!--	<FactionDef>
+		<defName>PFBrotherhood</defName>
+		<label>The Brotherhood of Steel</label>
+		<description>A post-war techno-religous organization that seeks out and recovers technology from those they deem untrustworthy of having it.</description>
+		<pawnsPlural>The Brotherhood</pawnsPlural>
+		<baseSelectionWeight>0.2</baseSelectionWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Elder</leaderTitle>
+		<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+		<geneticVariance>0.8</geneticVariance>
+		<startingGoodwill>
+			<min>-30</min>
+			<max>10</max>
+		</startingGoodwill>
+		<factionNameMaker>NamerFactionPFBrotherhood</factionNameMaker>
+		<baseNameMaker>PFNamerFactionBrotherhood</baseNameMaker>
+		<techLevel>Spacer</techLevel>
+		<backstoryCategory>Civil</backstoryCategory>
+		<hairTags>
+			<li>Urban</li>
+		</hairTags>
+		<naturalColonyGoodwill>
+			<min>-60</min>
+			<max>0</max>
+		</naturalColonyGoodwill>
+		<caravanTraderKinds>
+			<li>Caravan_PFBrotherhood_BulkGoods</li>
+			<li>Caravan_PFBrotherhood_TechSupplier</li>
+			<li>Caravan_PFBrotherhood_Exotic</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds>
+			<li>Visitor_PFBrotherhood_Standard</li>
+		</visitorTraderKinds>
+		<allowedArrivalTemperatureRange>
+			<min>-45</min>
+			<max>50</max>
+		</allowedArrivalTemperatureRange>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Normal</kindDef>
+				<options>
+					<PFBrotherhoodInitiate>150</PFBrotherhoodInitiate>
+					<PFBrotherhoodScribe>200</PFBrotherhoodScribe>
+					<PFBrotherhoodKnight>300</PFBrotherhoodKnight>
+					<PFBrotherhoodPaladin>100</PFBrotherhoodPaladin>
+					<PFBrotherhoodSentinel>10</PFBrotherhoodSentinel>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<PFBrotherhoodTrader>1</PFBrotherhoodTrader>
+				</traders>
+				<carriers>
+					<PFBrahmin>2</PFBrahmin>
+				</carriers>
+				<guards>
+					<PFBrotherhoodKnight>350</PFBrotherhoodKnight>
+					<PFBrotherhoodPaladin>150</PFBrotherhoodPaladin>
+					<PFBrotherhoodSentinel>10</PFBrotherhoodSentinel>
+				</guards>
+			</li>
+		</pawnGroupMakers>
+		<homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+</FactionDef> -->
+
+</Defs>
