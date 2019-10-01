@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>Project Fallout V1.7</identifier>
+    <version>1.7</version>
+  </Manifest>
+
+<!-- Manifest is for ModLoader. It allows mods such as the CE patch to tell Mod Manager load order etc as well as add more information for users using Fluffy's Mod Manager. -->
