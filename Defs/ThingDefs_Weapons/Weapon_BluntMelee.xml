@@ -92,6 +92,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>45</costStuffCount>
+		<thingCategories>
+			<li>PFMelee</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>12500</WorkToMake>
 			<Mass>1.35</Mass>
@@ -134,6 +137,9 @@
 		<thingSetMakerTags>
 		<li>RewardSpecial</li>
 		</thingSetMakerTags>
+		<thingCategories>
+			<li>PFMelee</li>
+		</thingCategories>
 		<statBases>
 			<MarketValue>750</MarketValue>
 			<Mass>1.35</Mass>
@@ -159,7 +165,7 @@
 			</li>
 		</tools>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseNormMeleeWeapon_Blunt">
 		<defName>MeleeWeapon_PFBaseballBat</defName>
 		<label>Baseball Bat</label>
@@ -169,6 +175,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>40</costStuffCount>
+		<thingCategories>
+			<li>PFMelee</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>12500</WorkToMake>
 			<Mass>1.35</Mass>
@@ -223,6 +232,9 @@
 			<li>SpacerMelee</li>
 		</weaponTags>
 		<costStuffCount>300</costStuffCount>
+		<thingCategories>
+			<li>PFMelee</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>45000</WorkToMake>
 			<Mass>2.7</Mass>
@@ -259,6 +271,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>55</costStuffCount>
+		<thingCategories>
+			<li>PFMelee</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>13500</WorkToMake>
 			<Mass>1.35</Mass>
@@ -287,5 +302,5 @@
 			</li>
 		</tools>
 	</ThingDef>
-	
+
 </Defs>

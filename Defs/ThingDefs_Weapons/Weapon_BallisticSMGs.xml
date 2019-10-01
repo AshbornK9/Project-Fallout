@@ -35,6 +35,9 @@
 <weaponTags>
 	<li>SimpleGun</li>
 </weaponTags>
+<thingCategories>
+	<li>PFSMG</li>
+</thingCategories>
 <statBases>
 <WorkToMake>9000</WorkToMake>
 <Mass>2.25</Mass>
@@ -116,6 +119,9 @@
 <weaponTags>
 	<li>SimpleGun</li>
 </weaponTags>
+<thingCategories>
+	<li>PFSMG</li>
+</thingCategories>
 <statBases>
 <WorkToMake>11500</WorkToMake>
 <Mass>2.6</Mass>
@@ -192,6 +198,9 @@
 <thingSetMakerTags>
 <li>RewardSpecial</li>
 </thingSetMakerTags>
+<thingCategories>
+	<li>PFSMG</li>
+</thingCategories>
 <statBases>
 <MarketValue>675</MarketValue>
 <Mass>2.55</Mass>
@@ -269,6 +278,9 @@
 <weaponTags>
 	<li>SimpleGun</li>
 </weaponTags>
+<thingCategories>
+	<li>PFSMG</li>
+</thingCategories>
 <statBases>
 <WorkToMake>28000</WorkToMake>
 <Mass>3.75</Mass>
@@ -347,6 +359,9 @@
 		<Crafting>7</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFSMG</li>
+</thingCategories>
 <statBases>
 <WorkToMake>11000</WorkToMake>
 <Mass>2</Mass>

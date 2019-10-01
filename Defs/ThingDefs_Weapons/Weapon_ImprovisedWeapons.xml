@@ -31,6 +31,9 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<thingCategories>
+			<li>PFJunk</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
 			<Mass>3</Mass>
@@ -106,6 +109,9 @@
 				<Crafting>5</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<thingCategories>
+			<li>PFJunk</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>16000</WorkToMake>
 			<Mass>5</Mass>

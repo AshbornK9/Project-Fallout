@@ -107,5 +107,11 @@
 	<label>Laser Heavy</label>
 	<parent>PFLaser</parent>
 </ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFLaserShotgun</defName>
+	<label>Laser Shotguns</label>
+	<parent>PFLaser</parent>
+</ThingCategoryDef>
 	<!-- Leave last -->
 </Defs>
