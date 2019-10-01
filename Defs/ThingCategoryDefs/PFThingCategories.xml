@@ -1,11 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Defs>
-
+<!-- Fallout Crafting Components -->
 	<ThingCategoryDef>
 		<defName>PFCraftingResources</defName>
 		<label>FalloutCraftingResources</label>
 		<parent>Items</parent>
 	</ThingCategoryDef>
-	
+
+
+<!-- Main categories-->
+	<ThingCategoryDef>
+		<defName>PFLaserWeapon</defName>
+		<label>Fallout Laser Weapons</label>
+		<parent>WeaponsRanged</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>PFPlasma</defName>
+		<label>Fallout Plasma Weapons</label>
+		<parent>WeaponsRanged</parent>
+	</ThingCategoryDef>
+
+
+<!-- Sub categories -->
+<ThingCategoryDef>
+	<defName>PFPistols</defName>
+	<label>Fallout Pistols</label>
+	<parent>WeaponsRanged</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFMelee</defName>
+	<label>Fallout Melee</label>
+	<parent>WeaponsMelee</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFRifles</defName>
+	<label>Fallout Rifles</label>
+	<parent>WeaponsRanged</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PRShotguns</defName>
+	<label>Fallout Shotguns</label>
+	<parent>WeaponsRanged</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFPipes</defName>
+	<label>Fallout Pipe Weapons</label>
+	<parent>WeaponsRanged</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFGrenades</defName>
+	<label>Fallout Tossables</label>
+	<parent>Grenades</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFJunk</defName>
+	<label>Fallout Junk Throwers</label>
+	<parent>WeaponsRanged</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFSMG</defName>
+	<label>Fallout SMG's</label>
+	<parent>WeaponsRanged</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFPlasmaPistol</defName>
+	<label>Plasma Pistols</label>
+	<parent>PFPlasma</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFPlasmaRifles</defName>
+	<label>Plasma Rifles</label>
+	<parent>PFPlasma</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFPlasmaShotgun</defName>
+	<label>Plasma Shotguns</label>
+	<parent>PFPlasma</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFLaserPistols</defName>
+	<label>Laser Pistols</label>
+	<parent>PFLaser</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFLaserRifles</defName>
+	<label>Laser Rifles</label>
+	<parent>PFLaser</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFLaserHeavy</defName>
+	<label>Laser Heavy</label>
+	<parent>PFLaser</parent>
+</ThingCategoryDef>
+	<!-- Leave last -->
 </Defs>

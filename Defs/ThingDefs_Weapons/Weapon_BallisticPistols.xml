@@ -27,6 +27,9 @@
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Revolver</soundInteract>
+	<thingCategories>
+		<li>PFPistols</li>
+	</thingCategories>
 <statBases>
 <WorkToMake>4500</WorkToMake>
 <Mass>1.45</Mass>
@@ -113,6 +116,9 @@
 <li>RewardSpecial</li>
 </thingSetMakerTags>
 <soundInteract>Interact_Revolver</soundInteract>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <MarketValue>600</MarketValue>
 <Mass>1.5</Mass>
@@ -181,6 +187,9 @@
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Revolver</soundInteract>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <WorkToMake>4500</WorkToMake>
 <Mass>1.5</Mass>
@@ -265,6 +274,9 @@
 <li>RewardSpecial</li>
 </thingSetMakerTags>
 <soundInteract>Interact_Revolver</soundInteract>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <MarketValue>666</MarketValue>
 <Mass>1.55</Mass>
@@ -341,6 +353,9 @@
 <weaponTags>
 	<li>SimpleGun</li>
 </weaponTags>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <WorkToMake>4500</WorkToMake>
 <Mass>1.1</Mass>
@@ -415,6 +430,9 @@
 <li>RewardSpecial</li>
 </thingSetMakerTags>
 <soundInteract>Interact_Autopistol</soundInteract>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <MarketValue>450</MarketValue>
 <Mass>1.2</Mass>
@@ -491,6 +509,9 @@
 <weaponTags>
 	<li>SimpleGun</li>
 </weaponTags>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <WorkToMake>5000</WorkToMake>
 <Mass>1.2</Mass>
@@ -564,6 +585,9 @@
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Revolver</soundInteract>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <WorkToMake>6000</WorkToMake>
 <Mass>1.65</Mass>
@@ -649,6 +673,9 @@
 <li>RewardSpecial</li>
 </thingSetMakerTags>
 <soundInteract>Interact_Revolver</soundInteract>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <MarketValue>800</MarketValue>
 <Mass>1.70</Mass>
@@ -718,6 +745,9 @@
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Revolver</soundInteract>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <WorkToMake>6500</WorkToMake>
 <Mass>1.75</Mass>
@@ -804,6 +834,9 @@
 <li>RewardSpecial</li>
 </thingSetMakerTags>
 <soundInteract>Interact_Revolver</soundInteract>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <MarketValue>725</MarketValue>
 <Mass>1.65</Mass>
@@ -880,6 +913,9 @@
 <weaponTags>
 	<li>SimpleGun</li>
 </weaponTags>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <WorkToMake>3000</WorkToMake>
 <Mass>0.8</Mass>
@@ -934,6 +970,9 @@
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Revolver</soundInteract>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <WorkToMake>6500</WorkToMake>
 <Mass>1.8</Mass>
@@ -1001,6 +1040,9 @@
 <li>RewardSpecial</li>
 </thingSetMakerTags>
 <soundInteract>Interact_Revolver</soundInteract>
+<thingCategories>
+	<li>PFPistols</li>
+</thingCategories>
 <statBases>
 <MarketValue>775</MarketValue>
 <Mass>1.75</Mass>
