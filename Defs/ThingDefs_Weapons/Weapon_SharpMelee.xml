@@ -46,6 +46,9 @@
 			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<soundInteract>InteractShishkebab</soundInteract>
+		<thingCategories>
+			<li>PFMelee</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>24000</WorkToMake>
 			<Mass>1.35</Mass>
@@ -81,7 +84,7 @@
 			<researchPrerequisite>LongBlades</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
 		<defName>PFRipper</defName>
 		<label>Ripper</label>
@@ -96,6 +99,9 @@
 			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<soundInteract>PFInteractRipper</soundInteract>
+		<thingCategories>
+			<li>PFMelee</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>48000</WorkToMake>
 			<Mass>2.75</Mass>

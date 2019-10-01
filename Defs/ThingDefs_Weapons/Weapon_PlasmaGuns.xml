@@ -27,6 +27,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPlasmaPistol</soundInteract>
+		<thingCategories>
+			<li>PFPlasmaPistol</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>15000</WorkToMake>
 			<Mass>1.35</Mass>
@@ -108,6 +111,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPlasmaPistol</soundInteract>
+		<thingCategories>
+			<li>PFPlasmaPistol</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>16000</WorkToMake>
 			<Mass>1.4</Mass>
@@ -163,7 +169,7 @@
 	</li>
 </tools>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_PFPlasmaRifle</defName>
 		<label>Energy Cell</label>
@@ -179,7 +185,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseLaserMakeableGun">
 		<defName>PFPlasma_Rifle</defName>
 		<label>Plasma Rifle</label>
@@ -189,6 +195,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPlasmaPistol</soundInteract>
+		<thingCategories>
+			<li>PFPlasmaRifles</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>20000</WorkToMake>
 			<Mass>3.6</Mass>
@@ -244,7 +253,7 @@
 	</li>
 </tools>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_PFMultiplasRifle</defName>
 		<label>Energy Cell</label>
@@ -260,7 +269,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseLaserMakeableGun">
 		<defName>PFMultiplas_Rifle</defName>
 		<label>Multiplas Rifle</label>
@@ -270,6 +279,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPlasmaPistol</soundInteract>
+		<thingCategories>
+			<li>PFPlasmaShotgun</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
 			<Mass>4</Mass>
@@ -327,7 +339,7 @@
 	</li>
 		</tools>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_PFPlasmaScattergun</defName>
 		<label>Energy Cell</label>
@@ -343,7 +355,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseLaserMakeableGun">
 		<defName>PFPlasmaScattergun</defName>
 		<label>Plasma Scattergun</label>
@@ -353,6 +365,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPlasmaPistol</soundInteract>
+		<thingCategories>
+			<li>PFPlasmaShotgun</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>20000</WorkToMake>
 			<Mass>3.8</Mass>
@@ -408,7 +423,7 @@
 		<power>9</power>
 		<cooldownTime>2</cooldownTime>
 	</li>
-		</tools>	
+		</tools>
 	</ThingDef>
-	
+
 </Defs>
