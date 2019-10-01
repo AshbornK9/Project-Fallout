@@ -2,7 +2,7 @@
 
 <Defs>
 
-  <ThingDef Name="BasePipeMakeableGun" ParentName="BaseGun" Abstract="True">
+  <ThingDef Name="BasePipeMakeableGun" ParentName="PFBaseGun" Abstract="True">
     <recipeMaker>
       <workSpeedStat>SmithingSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
@@ -21,7 +21,7 @@
 			<li>SimpleGun</li>
 		</weaponTags>
 	</ThingDef>
-  
+
 <ThingDef ParentName="BaseBullet">
 <defName>Bullet_PFPipePistol</defName>
 <label>.38 Bullet</label>
@@ -51,6 +51,9 @@
 		<Crafting>3</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+  <li>PFPipes</li>
+</thingCategories>
 <statBases>
 <WorkToMake>3000</WorkToMake>
 <Mass>0.9</Mass>
@@ -127,6 +130,9 @@
 		<Crafting>3</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+  <li>PFPipes</li>
+</thingCategories>
 <statBases>
 <WorkToMake>3500</WorkToMake>
 <Mass>1</Mass>
@@ -203,6 +209,9 @@
 		<Crafting>4</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+  <li>PFPipes</li>
+</thingCategories>
 <statBases>
 <WorkToMake>4500</WorkToMake>
 <Mass>1.25</Mass>
@@ -279,6 +288,9 @@
 		<Crafting>4</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+  <li>PFPipes</li>
+</thingCategories>
 <statBases>
 <WorkToMake>4500</WorkToMake>
 <Mass>1.2</Mass>

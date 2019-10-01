@@ -74,6 +74,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
+		<thingCategories>
+			<li>PFGrenades</li>
+		</thingCategories>
 		<statBases>
 			<MarketValue>250</MarketValue>
 			<Mass>0.4</Mass>
@@ -82,9 +85,6 @@
 		<weaponTags>
 			<li>GrenadeDestructive</li>
 		</weaponTags>
-		<thingCategories>
-			<li>Grenades</li>
-		</thingCategories>
 		<verbs>
 			<li>
 				<label>Throw Dynamite</label>
@@ -130,6 +130,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Industrial</techLevel>
+		<thingCategories>
+			<li>PFGrenades</li>
+		</thingCategories>
 		<statBases>
 			<MarketValue>275</MarketValue>
 			<Mass>0.4</Mass>
@@ -138,9 +141,6 @@
 		<weaponTags>
 			<li>GrenadeDestructive</li>
 		</weaponTags>
-		<thingCategories>
-			<li>Grenades</li>
-		</thingCategories>
 		<verbs>
 			<li>
 				<label>Throw Long-fuse Dynamite</label>
@@ -186,6 +186,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Spacer</techLevel>
+		<thingCategories>
+			<li>PFGrenades</li>
+		</thingCategories>
 		<statBases>
 			<MarketValue>900</MarketValue>
 			<Mass>0.7</Mass>
@@ -194,9 +197,6 @@
 		<weaponTags>
 			<li>GrenadeEMP</li>
 		</weaponTags>
-		<thingCategories>
-			<li>Grenades</li>
-		</thingCategories>
 		<verbs>
 			<li>
 				<label>Throw Pulse Grenade</label>
@@ -242,6 +242,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<techLevel>Spacer</techLevel>
+		<thingCategories>
+			<li>PFGrenades</li>
+		</thingCategories>
 		<statBases>
 			<MarketValue>1600</MarketValue>
 			<Mass>0.7</Mass>
@@ -250,9 +253,6 @@
 		<weaponTags>
 			<li>GrenadeDestructive</li>
 		</weaponTags>
-		<thingCategories>
-			<li>Grenades</li>
-		</thingCategories>
 		<verbs>
 			<li>
 				<label>Throw Plasma Grenade</label>

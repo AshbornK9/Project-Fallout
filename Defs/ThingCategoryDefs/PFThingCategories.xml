@@ -11,7 +11,7 @@
 
 <!-- Main categories-->
 	<ThingCategoryDef>
-		<defName>PFLaserWeapon</defName>
+		<defName>PFLaser</defName>
 		<label>Fallout Laser Weapons</label>
 		<parent>WeaponsRanged</parent>
 	</ThingCategoryDef>
@@ -43,7 +43,7 @@
 </ThingCategoryDef>
 
 <ThingCategoryDef>
-	<defName>PRShotguns</defName>
+	<defName>PFShotguns</defName>
 	<label>Fallout Shotguns</label>
 	<parent>WeaponsRanged</parent>
 </ThingCategoryDef>
@@ -105,6 +105,12 @@
 <ThingCategoryDef>
 	<defName>PFLaserHeavy</defName>
 	<label>Laser Heavy</label>
+	<parent>PFLaser</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFLaserShotgun</defName>
+	<label>Laser Shotguns</label>
 	<parent>PFLaser</parent>
 </ThingCategoryDef>
 	<!-- Leave last -->

@@ -19,7 +19,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="PFBaseHumanMakeableGun">
 <defName>Gun_PFCaravanShotgun</defName>
 <label>Caravan Shotgun</label>
 <description>An old ballistic over-under double barrel shotgun. It has a short range, but can tear up a target if you get close.</description>
@@ -33,6 +33,9 @@
 		<Crafting>6</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFShotguns</li>
+</thingCategories>
 <statBases>
 <WorkToMake>13000</WorkToMake>
 <Mass>3.5</Mass>
@@ -96,7 +99,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanGun">
+<ThingDef ParentName="PFBaseHumanGun">
 <defName>Gun_PFSCaravanShotgun</defName>
 <label>Sturdy Caravan Shotgun</label>
 <description>A unique variant of the Carvan Shotgun, although it is rougher around the edges, it has much more sturdy components. It has a short range, but can tear up a target if you get close.</description>
@@ -108,6 +111,9 @@
 <thingSetMakerTags>
 <li>RewardSpecial</li>
 </thingSetMakerTags>
+<thingCategories>
+	<li>PFShotguns</li>
+</thingCategories>
 <statBases>
 <MarketValue>800</MarketValue>
 <Mass>3.55</Mass>
@@ -167,7 +173,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="PFBaseHumanMakeableGun">
 <defName>Gun_PFHuntingShotgun</defName>
 <label>Hunting Shotgun</label>
 <description>A powerful pump action shotgun that is commonly used for hunting game. It hits hard, but lacks good accuracy at longer ranges.</description>
@@ -181,6 +187,9 @@
 		<Crafting>6</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFShotguns</li>
+</thingCategories>
 <statBases>
 <WorkToMake>20000</WorkToMake>
 <MarketValue>550</MarketValue>
@@ -245,7 +254,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanGun">
+<ThingDef ParentName="PFBaseHumanGun">
 <defName>Gun_PFDinnerBell</defName>
 <label>Dinner Bell</label>
 <description>A unique variant of the Hunting Shotgun. It is covered in camouflage paint, and is more accurate than its generic counterpart.</description>
@@ -257,6 +266,9 @@
 <thingSetMakerTags>
 <li>RewardSpecial</li>
 </thingSetMakerTags>
+<thingCategories>
+	<li>PFShotguns</li>
+</thingCategories>
 <statBases>
 <MarketValue>1075</MarketValue>
 <Mass>3.75</Mass>
@@ -316,7 +328,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="PFBaseHumanMakeableGun">
 <defName>Gun_PFLeverActionShotgun</defName>
 <label>Lever-action Shotgun</label>
 <description>An old single barrel lever action shotgun, used commonly for both hunting and defense. It has good range for a shotgun, and fires very quickly, however it's damage suffers slightly in comparison.</description>
@@ -330,6 +342,9 @@
 		<Crafting>7</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFShotguns</li>
+</thingCategories>
 <statBases>
 <WorkToMake>25000</WorkToMake>
 <Mass>3.3</Mass>
@@ -393,7 +408,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="PFBaseHumanMakeableGun">
 <defName>Gun_PFSawedOffShotgun</defName>
 <label>Sawed-off Shotgun</label>
 <description>An old sawed-off shotgun that fires both barrels at once. It shoots two powerful projectiles at the expense of a very long reload time and short range.</description>
@@ -407,6 +422,9 @@
 		<Crafting>7</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFShotguns</li>
+</thingCategories>
 <statBases>
 <WorkToMake>22500</WorkToMake>
 <Mass>2.0</Mass>
@@ -472,7 +490,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanGun">
+<ThingDef ParentName="PFBaseHumanGun">
 <defName>Gun_PFBigBoomer</defName>
 <label>Big Boomer</label>
 <description>A unique variant of the Sawed-off Shotgun. It bears an inscription with the name of the gun, and is much more warn down. Despite this, it has a much greater stopping power and slightly better accuracy and range.</description>
@@ -484,6 +502,9 @@
 <thingSetMakerTags>
 <li>RewardSpecial</li>
 </thingSetMakerTags>
+<thingCategories>
+	<li>PFShotguns</li>
+</thingCategories>
 <statBases>
 <MarketValue>925</MarketValue>
 <Mass>1.95</Mass>
@@ -545,7 +566,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="PFBaseHumanMakeableGun">
 <defName>Gun_PFSingleShotgun</defName>
 <label>Single Shotgun</label>
 <description>An old single barrel shotgun that fires high power slugs. It holds only a single shot, but reloads fairly quickly while maintaining accuracy.</description>
@@ -559,6 +580,9 @@
 		<Crafting>5</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFShotguns</li>
+</thingCategories>
 <statBases>
 <WorkToMake>20000</WorkToMake>
 <Mass>3.75</Mass>
@@ -622,7 +646,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="PFBaseHumanMakeableGun">
 <defName>Gun_PFRiotShotgun</defName>
 <label>Riot Shotgun</label>
 <description>An old pre-war military combat shotgun. It has a massive drum magazine, and a quick fire rate, however while it's range remains intact, its accuracy is poor.</description>
@@ -636,6 +660,9 @@
 		<Crafting>9</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFShotguns</li>
+</thingCategories>
 <statBases>
 <WorkToMake>35000</WorkToMake>
 <Mass>4.2</Mass>
