@@ -2,12 +2,9 @@
 
 <Defs>
 
-	<ThingDef Abstract="True" Name="BaseMeleeWeapon" ParentName="BaseWeapon">
+	<ThingDef Abstract="True" Name="BaseMeleeWeapon" ParentName="PFBaseWeapon">
 		<techLevel>Industrial</techLevel>
 		<smeltable>true</smeltable>
-		<thingCategories>
-			<li>WeaponsMelee</li>
-		</thingCategories>
 		<recipeMaker>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -34,12 +31,9 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef Abstract="True" Name="BaseSpecMeleeWeapon" ParentName="BaseWeapon">
+	<ThingDef Abstract="True" Name="BaseSpecMeleeWeapon" ParentName="PFBaseWeapon">
 		<techLevel>Industrial</techLevel>
 		<smeltable>true</smeltable>
-		<thingCategories>
-			<li>WeaponsMelee</li>
-		</thingCategories>
 		<inspectorTabs>
 			<li>ITab_Art</li>
 		</inspectorTabs>

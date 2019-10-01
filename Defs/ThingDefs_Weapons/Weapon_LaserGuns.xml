@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef Abstract="True" Name="BaseLaserGun" ParentName="BaseGun">
+	<ThingDef Abstract="True" Name="BaseLaserGun" ParentName="PFBaseGun">
 		<weaponTags>
 				<li>SpacerGun</li>
 				<li>IndustrialGunAdvanced</li>
 		</weaponTags>
 	</ThingDef>
 
-	<ThingDef Abstract="True" Name="BaseLaserMakeableGun" ParentName="BaseMakeableGun">
+	<ThingDef Abstract="True" Name="BaseLaserMakeableGun" ParentName="PFBaseMakeableGun">
 		<weaponTags>
 			<li>SpacerGun</li>
 			<li>IndustrialGunAdvanced</li>

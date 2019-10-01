@@ -17,7 +17,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="PFBaseHumanMakeableGun">
 <defName>Gun_PF9mmSMG</defName>
 <label>9mm SMG</label>
 <description>A small fast firing inaccurate submachine gun, used more for spray-and-pray tactics than for any accurate shooting.</description>
@@ -101,7 +101,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="PFBaseHumanMakeableGun">
 <defName>Gun_PF10mmSMG</defName>
 <label>10mm SMG</label>
 <description>A hybrid between a Heavy SMG and a rapid fire Light SMG, the 10mm SMG is used for outputting plenty of rounds with moderate accuracy.</description>
@@ -186,7 +186,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanGun">
+<ThingDef ParentName="PFBaseHumanGun">
 <defName>Gun_PFSleepyTyme</defName>
 <label>SleepyTyme</label>
 <description>A unique 10mm SMG with an integrated surpressor and high quality parts.</description>
@@ -260,7 +260,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanGun">
+<ThingDef ParentName="PFBaseHumanGun">
 <defName>Gun_PF12_7mmSMG</defName>
 <label>12.7mm SMG</label>
 <description>A heavier caliber SMG that packs more of a punch than other most, but has a slow rate of fire.</description>
@@ -344,7 +344,7 @@
 </projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="PFBaseHumanMakeableGun">
 <defName>Gun_PF22SMG</defName>
 <label> Silenced .22 SMG</label>
 <description>An SMG with an integrated silencer, with its small caliber it hits more weakly and works poorly at range, but has a very high fire rate.</description>

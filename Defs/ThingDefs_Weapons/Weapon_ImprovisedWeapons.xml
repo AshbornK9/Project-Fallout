@@ -17,7 +17,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="PFBaseHumanMakeableGun">
 		<defName>Gun_PFRockItLauncher</defName>
 		<label>Rock-It Launcher</label>
 		<description>A rudimentary cannon that fires literal junk at high velocities.</description>
@@ -95,7 +95,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="PFBaseHumanMakeableGun">
 		<defName>Gun_PFJunkjet</defName>
 		<label>Junkjet</label>
 		<description>A slightly less makeshift cannon that fires literal junk at high velocities.</description>
