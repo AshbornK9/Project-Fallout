@@ -35,6 +35,9 @@
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Rifle</soundInteract>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <WorkToMake>11000</WorkToMake>
 <Mass>3.25</Mass>
@@ -117,6 +120,9 @@
 <thingSetMakerTags>
 <li>RewardSpecial</li>
 </thingSetMakerTags>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <MarketValue>650</MarketValue>
 <Mass>3</Mass>
@@ -187,6 +193,9 @@
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>InteractAntiMaterielRifle</soundInteract>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <MarketValue>2750</MarketValue>
 <Mass>9</Mass>
@@ -267,6 +276,9 @@
 		<Crafting>7</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <WorkToMake>45000</WorkToMake>
 <Mass>3.3</Mass>
@@ -349,6 +361,9 @@
 		<Crafting>8</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <WorkToMake>18000</WorkToMake>
 <Mass>3.8</Mass>
@@ -429,6 +444,9 @@
 <thingSetMakerTags>
 <li>RewardSpecial</li>
 </thingSetMakerTags>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <MarketValue>1150</MarketValue>
 <Mass>3.75</Mass>
@@ -497,6 +515,9 @@
 <texPath>Things/Fallout/Weapons/Guns/BB_Gun_Custom</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <WorkToMake>800</WorkToMake>
 <Mass>0.7</Mass>
@@ -570,6 +591,9 @@
 <thingSetMakerTags>
 <li>RewardSpecial</li>
 </thingSetMakerTags>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <MarketValue>150</MarketValue>
 <Mass>0.75</Mass>
@@ -645,6 +669,9 @@
 		<Crafting>8</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <WorkToMake>21000</WorkToMake>
 <Mass>3.75</Mass>
@@ -723,6 +750,9 @@
 <li>RewardSpecial</li>
 </thingSetMakerTags>
 <soundInteract>Interact_Rifle</soundInteract>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <MarketValue>1725</MarketValue>
 <Mass>3.8</Mass>
@@ -794,6 +824,9 @@
 <thingSetMakerTags>
 <li>RewardSpecial</li>
 </thingSetMakerTags>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <MarketValue>1075</MarketValue>
 <Mass>3.6</Mass>
@@ -868,6 +901,9 @@
 		<Crafting>8</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <WorkToMake>27500</WorkToMake>
 <Mass>3.4</Mass>
@@ -950,6 +986,9 @@
 		<Crafting>8</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <WorkToMake>32500</WorkToMake>
 <Mass>4</Mass>
@@ -1028,6 +1067,9 @@
 <thingSetMakerTags>
 <li>RewardSpecial</li>
 </thingSetMakerTags>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <MarketValue>1750</MarketValue>
 <Mass>3.9</Mass>
@@ -1102,6 +1144,9 @@
 		<Crafting>8</Crafting>
 	</skillRequirements>
 </recipeMaker>
+<thingCategories>
+	<li>PFRifles</li>
+</thingCategories>
 <statBases>
 <WorkToMake>30000</WorkToMake>
 <Mass>3.5</Mass>
@@ -1183,6 +1228,9 @@
 		<thingSetMakerTags>
 		<li>RewardSpecial</li>
 		</thingSetMakerTags>
+		<thingCategories>
+			<li>PFRifles</li>
+		</thingCategories>
 		<statBases>
 			<MarketValue>1800</MarketValue>
 			<Mass>4.1</Mass>
@@ -1254,6 +1302,9 @@
 		<thingSetMakerTags>
 		<li>RewardSpecial</li>
 		</thingSetMakerTags>
+		<thingCategories>
+			<li>PFRifles</li>
+		</thingCategories>
 		<statBases>
 			<MarketValue>2600</MarketValue>
 			<Mass>8.75</Mass>
@@ -1298,5 +1349,5 @@
 	</li>
 </tools>
 	</ThingDef>
-	
+
 </Defs>
