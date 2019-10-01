@@ -23,309 +23,309 @@
 	</ThingDef>
   
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFPipePistol</defName>
-<label>.38 Bullet</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Small</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>8</damageAmountBase>
-<speed>65</speed>
-</projectile>
+	<defName>Bullet_PFPipePistol</defName>
+	<label>.38 Bullet</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>8</damageAmountBase>
+		<speed>65</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="BasePipeMakeableHumanGun">
-<defName>Gun_PFPipePistol</defName>
-<label>Pipe Pistol</label>
-<description>A makeshift pistol, it's simple to make but doesn't hit very hard.</description>
-<graphicData>
-<texPath>Things/Fallout/Weapons/Guns/PipePistol</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<soundInteract>Interact_Autopistol</soundInteract>
-<recipeMaker>
-	<skillRequirements>
-		<Crafting>3</Crafting>
-	</skillRequirements>
-</recipeMaker>
-<statBases>
-<WorkToMake>3000</WorkToMake>
-<Mass>0.9</Mass>
-<AccuracyTouch>0.85</AccuracyTouch>
-<AccuracyShort>0.75</AccuracyShort>
-<AccuracyMedium>0.50</AccuracyMedium>
-<AccuracyLong>0.23</AccuracyLong>
-<RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
-</statBases>
-<costList>
-<Steel>20</Steel>
-<ComponentIndustrial>2</ComponentIndustrial>
-</costList>
-<verbs>
-<li>
-<verbClass>Verb_Shoot</verbClass>
-<hasStandardCommand>true</hasStandardCommand>
-<defaultProjectile>Bullet_PFPipePistol</defaultProjectile>
-<warmupTime>0.20</warmupTime>
-<range>24.9</range>
-<soundCast>Shot_Autopistol</soundCast>
-<!-- Above is a Placeholder Sound -->
-<soundCastTail>GunTail_Light</soundCastTail>
-<muzzleFlashScale>9</muzzleFlashScale>
-</li>
-</verbs>
-<tools>
-	<li>
-		<label>grip</label>
-		<capacities>
-			<li>Blunt</li>
-		</capacities>
-		<power>9</power>
-		<cooldownTime>2</cooldownTime>
-	</li>
-	<li>
-		<label>barrel</label>
-		<capacities>
-			<li>Blunt</li>
-			<li>Poke</li>
-		</capacities>
-		<power>9</power>
-		<cooldownTime>2</cooldownTime>
-	</li>
-</tools>
+	<defName>Gun_PFPipePistol</defName>
+	<label>Pipe Pistol</label>
+	<description>A makeshift pistol, it's simple to make but doesn't hit very hard.</description>
+	<graphicData>
+		<texPath>Things/Fallout/Weapons/Guns/PipePistol</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Interact_Autopistol</soundInteract>
+	<recipeMaker>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<statBases>
+		<WorkToMake>3000</WorkToMake>
+		<Mass>0.9</Mass>
+		<AccuracyTouch>0.85</AccuracyTouch>
+		<AccuracyShort>0.75</AccuracyShort>
+		<AccuracyMedium>0.50</AccuracyMedium>
+		<AccuracyLong>0.23</AccuracyLong>
+		<RangedWeapon_Cooldown>0.80</RangedWeapon_Cooldown>
+	</statBases>
+	<costList>
+		<Steel>20</Steel>
+		<ComponentIndustrial>2</ComponentIndustrial>
+	</costList>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_PFPipePistol</defaultProjectile>
+			<warmupTime>0.20</warmupTime>
+			<range>24.9</range>
+			<soundCast>Shot_Autopistol</soundCast>
+			<!-- Above is a Placeholder Sound -->
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>grip</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFPipeRevolver</defName>
-<label>.38 Bullet</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Small</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>10</damageAmountBase>
-<speed>70</speed>
-</projectile>
+	<defName>Bullet_PFPipeRevolver</defName>
+	<label>.38 Bullet</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>10</damageAmountBase>
+		<speed>70</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="BasePipeMakeableHumanGun">
-<defName>Gun_PFPipeRevolver</defName>
-<label>Pipe Revolver</label>
-<description>A makeshift revolver, it's simple to make and hits a bit harder than the normal pistol.</description>
-<graphicData>
-<texPath>Things/Fallout/Weapons/Guns/PipeRevolver</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<soundInteract>Interact_Revolver</soundInteract>
-<recipeMaker>
-	<skillRequirements>
-		<Crafting>3</Crafting>
-	</skillRequirements>
-</recipeMaker>
-<statBases>
-<WorkToMake>3500</WorkToMake>
-<Mass>1</Mass>
-<AccuracyTouch>0.87</AccuracyTouch>
-<AccuracyShort>0.72</AccuracyShort>
-<AccuracyMedium>0.48</AccuracyMedium>
-<AccuracyLong>0.20</AccuracyLong>
-<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
-</statBases>
-<costList>
-<Steel>30</Steel>
-<ComponentIndustrial>2</ComponentIndustrial>
-</costList>
-<verbs>
-<li>
-<verbClass>Verb_Shoot</verbClass>
-<hasStandardCommand>true</hasStandardCommand>
-<defaultProjectile>Bullet_PFPipeRevolver</defaultProjectile>
-<warmupTime>0.30</warmupTime>
-<range>26.9</range>
-<soundCast>Shot_Revolver</soundCast>
-<!-- Above is a Placeholder Sound -->
-<soundCastTail>GunTail_Light</soundCastTail>
-<muzzleFlashScale>9</muzzleFlashScale>
-</li>
-</verbs>
-<tools>
-	<li>
-		<label>grip</label>
-		<capacities>
-			<li>Blunt</li>
-		</capacities>
-		<power>9</power>
-		<cooldownTime>2</cooldownTime>
-	</li>
-	<li>
-		<label>barrel</label>
-		<capacities>
-			<li>Blunt</li>
-			<li>Poke</li>
-		</capacities>
-		<power>9</power>
-		<cooldownTime>2</cooldownTime>
-	</li>
-</tools>
+	<defName>Gun_PFPipeRevolver</defName>
+	<label>Pipe Revolver</label>
+	<description>A makeshift revolver, it's simple to make and hits a bit harder than the normal pistol.</description>
+	<graphicData>
+		<texPath>Things/Fallout/Weapons/Guns/PipeRevolver</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Interact_Revolver</soundInteract>
+	<recipeMaker>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<statBases>
+		<WorkToMake>3500</WorkToMake>
+		<Mass>1</Mass>
+		<AccuracyTouch>0.87</AccuracyTouch>
+		<AccuracyShort>0.72</AccuracyShort>
+		<AccuracyMedium>0.48</AccuracyMedium>
+		<AccuracyLong>0.20</AccuracyLong>
+		<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+	</statBases>
+	<costList>
+		<Steel>30</Steel>
+		<ComponentIndustrial>2</ComponentIndustrial>
+	</costList>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_PFPipeRevolver</defaultProjectile>
+			<warmupTime>0.30</warmupTime>
+			<range>26.9</range>
+			<soundCast>Shot_Revolver</soundCast>
+			<!-- Above is a Placeholder Sound -->
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>grip</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFPipeRifle</defName>
-<label>.38 Bullet</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Small</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>9</damageAmountBase>
-<speed>70</speed>
-</projectile>
+	<defName>Bullet_PFPipeRifle</defName>
+	<label>.38 Bullet</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>9</damageAmountBase>
+		<speed>70</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="BasePipeMakeableHumanGun">
-<defName>Gun_PFPipeRifle</defName>
-<label>Pipe Rifle</label>
-<description>A makeshift rifle, it's simple to make but is more accurate than the pistol.</description>
-<graphicData>
-<texPath>Things/Fallout/Weapons/Guns/PipeRifle</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<soundInteract>Interact_Autopistol</soundInteract>
-<recipeMaker>
-	<skillRequirements>
-		<Crafting>4</Crafting>
-	</skillRequirements>
-</recipeMaker>
-<statBases>
-<WorkToMake>4500</WorkToMake>
-<Mass>1.25</Mass>
-<AccuracyTouch>0.75</AccuracyTouch>
-<AccuracyShort>0.78</AccuracyShort>
-<AccuracyMedium>0.60</AccuracyMedium>
-<AccuracyLong>0.3</AccuracyLong>
-<RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
-</statBases>
-<costList>
-<Steel>35</Steel>
-<ComponentIndustrial>3</ComponentIndustrial>
-</costList>
-<verbs>
-<li>
-<verbClass>Verb_Shoot</verbClass>
-<hasStandardCommand>true</hasStandardCommand>
-<defaultProjectile>Bullet_PFPipeRifle</defaultProjectile>
-<warmupTime>0.40</warmupTime>
-<range>28.9</range>
-<soundCast>Shot_Autopistol</soundCast>
-<!-- Above is a Placeholder Sound -->
-<soundCastTail>GunTail_Light</soundCastTail>
-<muzzleFlashScale>9</muzzleFlashScale>
-</li>
-</verbs>
-<tools>
-	<li>
-		<label>grip</label>
-		<capacities>
-			<li>Blunt</li>
-		</capacities>
-		<power>9</power>
-		<cooldownTime>2</cooldownTime>
-	</li>
-	<li>
-		<label>barrel</label>
-		<capacities>
-			<li>Blunt</li>
-			<li>Poke</li>
-		</capacities>
-		<power>9</power>
-		<cooldownTime>2</cooldownTime>
-	</li>
-</tools>
+	<defName>Gun_PFPipeRifle</defName>
+	<label>Pipe Rifle</label>
+	<description>A makeshift rifle, it's simple to make but is more accurate than the pistol.</description>
+	<graphicData>
+		<texPath>Things/Fallout/Weapons/Guns/PipeRifle</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Interact_Autopistol</soundInteract>
+	<recipeMaker>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<statBases>
+		<WorkToMake>4500</WorkToMake>
+		<Mass>1.25</Mass>
+		<AccuracyTouch>0.75</AccuracyTouch>
+		<AccuracyShort>0.78</AccuracyShort>
+		<AccuracyMedium>0.60</AccuracyMedium>
+		<AccuracyLong>0.3</AccuracyLong>
+		<RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+	</statBases>
+	<costList>
+		<Steel>35</Steel>
+		<ComponentIndustrial>3</ComponentIndustrial>
+	</costList>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_PFPipeRifle</defaultProjectile>
+			<warmupTime>0.40</warmupTime>
+			<range>28.9</range>
+			<soundCast>Shot_Autopistol</soundCast>
+			<!-- Above is a Placeholder Sound -->
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>grip</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFPipeSMG</defName>
-<label>.38 Bullet</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Small</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>8</damageAmountBase>
-<speed>70</speed>
-</projectile>
+	<defName>Bullet_PFPipeSMG</defName>
+	<label>.38 Bullet</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>8</damageAmountBase>
+		<speed>70</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="BasePipeMakeableHumanGun">
-<defName>Gun_PFPipeSMG</defName>
-<label>Pipe SMG</label>
-<description>A makeshift submachine gun, it's simple to make but fires quickly.</description>
-<graphicData>
-<texPath>Things/Fallout/Weapons/Guns/PipeSMG</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<soundInteract>Interact_Autopistol</soundInteract>
-<recipeMaker>
-	<skillRequirements>
-		<Crafting>4</Crafting>
-	</skillRequirements>
-</recipeMaker>
-<statBases>
-<WorkToMake>4500</WorkToMake>
-<Mass>1.2</Mass>
-<AccuracyTouch>0.68</AccuracyTouch>
-<AccuracyShort>0.55</AccuracyShort>
-<AccuracyMedium>0.29</AccuracyMedium>
-<AccuracyLong>0.18</AccuracyLong>
-<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
-</statBases>
-<costList>
-<Steel>30</Steel>
-<ComponentIndustrial>3</ComponentIndustrial>
-</costList>
-<verbs>
-<li>
-<verbClass>Verb_Shoot</verbClass>
-<hasStandardCommand>true</hasStandardCommand>
-<defaultProjectile>Bullet_PFPipeSMG</defaultProjectile>
-<warmupTime>0.35</warmupTime>
-<range>21.9</range>
-<burstShotCount>4</burstShotCount>
-<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-<soundCast>Shot_Autopistol</soundCast>
-<!-- Above is a Placeholder Sound -->
-<soundCastTail>GunTail_Light</soundCastTail>
-<muzzleFlashScale>9</muzzleFlashScale>
-</li>
-</verbs>
-<tools>
-	<li>
-		<label>grip</label>
-		<capacities>
-			<li>Blunt</li>
-		</capacities>
-		<power>9</power>
-		<cooldownTime>2</cooldownTime>
-	</li>
-	<li>
-		<label>barrel</label>
-		<capacities>
-			<li>Blunt</li>
-			<li>Poke</li>
-		</capacities>
-		<power>9</power>
-		<cooldownTime>2</cooldownTime>
-	</li>
-</tools>
+	<defName>Gun_PFPipeSMG</defName>
+	<label>Pipe SMG</label>
+	<description>A makeshift submachine gun, it's simple to make but fires quickly.</description>
+	<graphicData>
+		<texPath>Things/Fallout/Weapons/Guns/PipeSMG</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<soundInteract>Interact_Autopistol</soundInteract>
+	<recipeMaker>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	</recipeMaker>
+	<statBases>
+		<WorkToMake>4500</WorkToMake>
+		<Mass>1.2</Mass>
+		<AccuracyTouch>0.68</AccuracyTouch>
+		<AccuracyShort>0.55</AccuracyShort>
+		<AccuracyMedium>0.29</AccuracyMedium>
+		<AccuracyLong>0.18</AccuracyLong>
+		<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+	</statBases>
+	<costList>
+		<Steel>30</Steel>
+		<ComponentIndustrial>3</ComponentIndustrial>
+	</costList>
+	<verbs>
+		<li>
+			<verbClass>Verb_Shoot</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_PFPipeSMG</defaultProjectile>
+			<warmupTime>0.35</warmupTime>
+			<range>21.9</range>
+			<burstShotCount>4</burstShotCount>
+			<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+			<soundCast>Shot_Autopistol</soundCast>
+			<!-- Above is a Placeholder Sound -->
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</li>
+	</verbs>
+	<tools>
+		<li>
+			<label>grip</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		<li>
+			<label>barrel</label>
+			<capacities>
+				<li>Blunt</li>
+				<li>Poke</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+	</tools>
 </ThingDef>
 
 </Defs>
