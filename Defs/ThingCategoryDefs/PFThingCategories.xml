@@ -72,5 +72,40 @@
 	<parent>WeaponsRanged</parent>
 </ThingCategoryDef>
 
+<ThingCategoryDef>
+	<defName>PFPlasmaPistol</defName>
+	<label>Plasma Pistols</label>
+	<parent>PFPlasma</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFPlasmaRifles</defName>
+	<label>Plasma Rifles</label>
+	<parent>PFPlasma</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFPlasmaShotgun</defName>
+	<label>Plasma Shotguns</label>
+	<parent>PFPlasma</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFLaserPistols</defName>
+	<label>Laser Pistols</label>
+	<parent>PFLaser</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFLaserRifles</defName>
+	<label>Laser Rifles</label>
+	<parent>PFLaser</parent>
+</ThingCategoryDef>
+
+<ThingCategoryDef>
+	<defName>PFLaserHeavy</defName>
+	<label>Laser Heavy</label>
+	<parent>PFLaser</parent>
+</ThingCategoryDef>
 	<!-- Leave last -->
 </Defs>
