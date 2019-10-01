@@ -74,9 +74,3 @@
 
 	<!-- Leave last -->
 </Defs>
-
-<ThingCategoryDef>
-	<defName></defName>
-	<label></label>
-	<parent>WeaponsRanged</parent>
-</ThingCategoryDef>
