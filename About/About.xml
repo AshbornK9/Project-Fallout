@@ -3,6 +3,8 @@
 <name>Project Fallout v1.7</name>
 <author>AshbornK-9</author>
 <url>https://ludeon.com/forums/index.php?topic=14492.30</url>
-<targetVersion>1.0.2059</targetVersion>
+<supportedVersions>
+  <li>1.0</li>
+</supportedVersions>
 <description>A mod adding items, weapons, and more from the Fallout games! Future plans include: Factions, Creatures, and Clothing.</description>
 </ModMetaData>
