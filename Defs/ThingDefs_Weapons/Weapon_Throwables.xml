@@ -13,9 +13,6 @@
 			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
 		</graphicData>
 		<drawGUIOverlay>true</drawGUIOverlay>
-		<thingCategories>
-			<li>PFGrenades</li>
-		</thingCategories>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
@@ -88,9 +85,6 @@
 		<weaponTags>
 			<li>GrenadeDestructive</li>
 		</weaponTags>
-		<thingCategories>
-			<li>Grenades</li>
-		</thingCategories>
 		<verbs>
 			<li>
 				<label>Throw Dynamite</label>
@@ -147,9 +141,6 @@
 		<weaponTags>
 			<li>GrenadeDestructive</li>
 		</weaponTags>
-		<thingCategories>
-			<li>Grenades</li>
-		</thingCategories>
 		<verbs>
 			<li>
 				<label>Throw Long-fuse Dynamite</label>
@@ -206,9 +197,6 @@
 		<weaponTags>
 			<li>GrenadeEMP</li>
 		</weaponTags>
-		<thingCategories>
-			<li>Grenades</li>
-		</thingCategories>
 		<verbs>
 			<li>
 				<label>Throw Pulse Grenade</label>
@@ -265,9 +253,6 @@
 		<weaponTags>
 			<li>GrenadeDestructive</li>
 		</weaponTags>
-		<thingCategories>
-			<li>Grenades</li>
-		</thingCategories>
 		<verbs>
 			<li>
 				<label>Throw Plasma Grenade</label>

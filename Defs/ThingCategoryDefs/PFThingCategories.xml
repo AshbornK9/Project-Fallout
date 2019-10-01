@@ -11,7 +11,7 @@
 
 <!-- Main categories-->
 	<ThingCategoryDef>
-		<defName>PFLaserWeapon</defName>
+		<defName>PFLaser</defName>
 		<label>Fallout Laser Weapons</label>
 		<parent>WeaponsRanged</parent>
 	</ThingCategoryDef>
@@ -43,7 +43,7 @@
 </ThingCategoryDef>
 
 <ThingCategoryDef>
-	<defName>PRShotguns</defName>
+	<defName>PFShotguns</defName>
 	<label>Fallout Shotguns</label>
 	<parent>WeaponsRanged</parent>
 </ThingCategoryDef>
