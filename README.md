@@ -1,5 +1,15 @@
 # Project-Fallout
 Project Fallout
 To Do:
-Add categories base
+- [x] Add categories base
+
 Link weapon files to categories
+
+- [x] Pistols
+- [ ] Rifles
+- [ ] Shotguns
+- [ ] SMGS
+- [ ] Junk Launchers
+- [ ] Laser weapons
+- [ ] Plasma weapons
+- [ ] Melee
