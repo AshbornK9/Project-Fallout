@@ -63,9 +63,9 @@
 			<li>Anesthetize</li>
 		</recipes>
 	</ThingDef>
-	
+
 	<PawnKindDef Abstract="True" Name="AnimalKindBase"/>
-	
+
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>PFBrahmin</defName>
 		<label>Brahmin</label>
@@ -222,7 +222,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Fallout/Animals/Brahmin</texPath>
+					<texPath>Things/Fallout/Animals/Brahmin/Brahmin</texPath>
 					<drawSize>2.10</drawSize>
 					<shadowData>
 						<volume>(0.6,0.45,0.45</volume>
