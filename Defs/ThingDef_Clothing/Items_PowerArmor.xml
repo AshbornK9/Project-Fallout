@@ -16,7 +16,6 @@
 		<MaxHitPoints>100</MaxHitPoints>
 		<Flammability>1.0</Flammability>
 		<DeteriorationRate>0.5</DeteriorationRate>
-		<SellPriceFactor>0.5</SellPriceFactor>
 	</statBases>
 	<altitudeLayer>Item</altitudeLayer>
 	<alwaysHaulable>True</alwaysHaulable>
@@ -73,11 +72,11 @@
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<statBases>
-		<WorkToMake>275000</WorkToMake>
-		<Mass>10</Mass>
-		<MaxHitPoints>750</MaxHitPoints>
+		<WorkToMake>150000</WorkToMake>
+		<Mass>12</Mass>
+		<MaxHitPoints>900</MaxHitPoints>
 		<MarketValue>7500</MarketValue>
-		<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+		<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
 		<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
 		<ArmorRating_Heat>0.85</ArmorRating_Heat>
 		<Insulation_Cold>10</Insulation_Cold>
@@ -85,17 +84,18 @@
 		<EquipDelay>4</EquipDelay>
 	</statBases>
 	<equippedStatOffsets>
-		<MoveSpeed>-0.25</MoveSpeed>
-		<WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+		<MoveSpeed>0.10</MoveSpeed>
+		<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
 		<ToxicSensitivity>-0.5</ToxicSensitivity>
 	</equippedStatOffsets>
 	<thingCategories>
 		<li>Apparel</li>
 	</thingCategories>
 	<costList>
-		<ComponentIndustrial>25</ComponentIndustrial>
+		<ComponentIndustrial>10</ComponentIndustrial>
 		<ComponentSpacer>2</ComponentSpacer>
-		<Plasteel>250</Plasteel>
+		<Steel>50</Steel>
+		<Plasteel>125</Plasteel>
 	</costList>
 	<apparel>
 		<bodyPartGroups>
@@ -118,6 +118,12 @@
 			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
+	<recipeMaker>
+		<skillRequirements>
+			<Intellectual>6</Intellectual>
+			<Crafting>8</Crafting>      
+		</skillRequirements>
+	</recipeMaker>
 </ThingDef>
 
 <ThingDef ParentName="ArmorMakeableBase">
@@ -134,28 +140,28 @@
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<statBases>
-		<WorkToMake>75000</WorkToMake>
-		<Mass>12</Mass>
-		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>50000</WorkToMake>
+		<Mass>17</Mass>
+		<MaxHitPoints>300</MaxHitPoints>
 		<MarketValue>800</MarketValue>
-		<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
-		<ArmorRating_Heat>0.45</ArmorRating_Heat>
+		<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.50</ArmorRating_Heat>
 		<Insulation_Cold>3</Insulation_Cold>
 		<Insulation_Heat>3</Insulation_Heat>
 		<EquipDelay>4</EquipDelay>
 	</statBases>
 	<equippedStatOffsets>
-		<MoveSpeed>-0.15</MoveSpeed>
-		<WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+		<MoveSpeed>-0.10</MoveSpeed>
+		<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
 		<ToxicSensitivity>-0.3</ToxicSensitivity>
 	</equippedStatOffsets>
 	<thingCategories>
 		<li>Apparel</li>
 	</thingCategories>
 	<costList>
-		<ComponentIndustrial>10</ComponentIndustrial>
-		<Steel>250</Steel>
+		<ComponentIndustrial>4</ComponentIndustrial>
+		<Steel>175</Steel>
 	</costList>
 	<apparel>
 		<bodyPartGroups>
@@ -178,6 +184,12 @@
 			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
+	<recipeMaker>
+		<skillRequirements>
+			<Intellectual>2</Intellectual>
+			<Crafting>4</Crafting>      
+		</skillRequirements>
+	</recipeMaker>
 </ThingDef>
 
 <ThingDef ParentName="ArmorMakeableBase">
@@ -194,29 +206,27 @@
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<statBases>
-		<WorkToMake>150000</WorkToMake>
-		<Mass>10</Mass>
-		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>100000</WorkToMake>
+		<Mass>15</Mass>
+		<MaxHitPoints>500</MaxHitPoints>
 		<MarketValue>2500</MarketValue>
-		<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
 		<ArmorRating_Heat>0.60</ArmorRating_Heat>
 		<Insulation_Cold>5</Insulation_Cold>
 		<Insulation_Heat>5</Insulation_Heat>
 		<EquipDelay>4</EquipDelay>
 	</statBases>
 	<equippedStatOffsets>
-		<MoveSpeed>-0.40</MoveSpeed>
-		<WorkSpeedGlobal>-0.25</WorkSpeedGlobal>
 		<ToxicSensitivity>-0.4</ToxicSensitivity>
 	</equippedStatOffsets>
 	<thingCategories>
 		<li>Apparel</li>
 	</thingCategories>
 	<costList>
-		<ComponentIndustrial>15</ComponentIndustrial>
-		<Plasteel>100</Plasteel>
-		<Steel>150</Steel>
+		<ComponentIndustrial>6</ComponentIndustrial>
+		<Plasteel>50</Plasteel>
+		<Steel>125</Steel>
 	</costList>
 	<apparel>
 		<bodyPartGroups>
@@ -240,6 +250,12 @@
 			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
+	<recipeMaker>
+		<skillRequirements>
+			<Intellectual>4</Intellectual>
+			<Crafting>6</Crafting>      
+		</skillRequirements>
+	</recipeMaker>
 </ThingDef>
 
 <!-- <ThingDef ParentName="ArmorMakeableBase">

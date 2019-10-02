@@ -33,25 +33,26 @@
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<statBases>
-		<WorkToMake>75000</WorkToMake>
-		<Mass>1.5</Mass>
-		<MaxHitPoints>300</MaxHitPoints>
+		<WorkToMake>50000</WorkToMake>
+		<Mass>2.0</Mass>
+		<MaxHitPoints>600</MaxHitPoints>
 		<MarketValue>3250</MarketValue>
-		<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+		<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
 		<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
 		<ArmorRating_Heat>0.85</ArmorRating_Heat>
 		<Insulation_Cold>5</Insulation_Cold>
 		<Insulation_Heat>5</Insulation_Heat>
 	</statBases>
 	<equippedStatOffsets>
-		<MoveSpeed>-0.15</MoveSpeed>
-		<PsychicSensitivity>-0.25</PsychicSensitivity>
-		<ToxicSensitivity>-0.2</ToxicSensitivity>
+		<MoveSpeed>0.05</MoveSpeed>
+		<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+		<PsychicSensitivity>-0.50</PsychicSensitivity>
+		<ToxicSensitivity>-0.4</ToxicSensitivity>
 	</equippedStatOffsets>
 	<costList>
-		<ComponentIndustrial>12</ComponentIndustrial>
+		<ComponentIndustrial>5</ComponentIndustrial>
 		<ComponentSpacer>1</ComponentSpacer>
-		<Plasteel>125</Plasteel>
+		<Plasteel>100</Plasteel>
 	</costList>
 	<apparel>
 		<bodyPartGroups>
@@ -69,6 +70,12 @@
 			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
+	<recipeMaker>
+		<skillRequirements>
+			<Intellectual>6</Intellectual>
+			<Crafting>8</Crafting>      
+		</skillRequirements>
+	</recipeMaker>
 </ThingDef>
 
 <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -84,24 +91,23 @@
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<statBases>
-		<WorkToMake>20000</WorkToMake>
-		<Mass>2</Mass>
-		<MaxHitPoints>50</MaxHitPoints>
-		<MarketValue>375</MarketValue>
-		<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.55</ArmorRating_Sharp>
-		<ArmorRating_Heat>0.45</ArmorRating_Heat>
+		<WorkToMake>15000</WorkToMake>
+		<Mass>3</Mass>
+		<MaxHitPoints>250</MaxHitPoints>
+		<MarketValue>475</MarketValue>
+		<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.50</ArmorRating_Heat>
 		<Insulation_Cold>1</Insulation_Cold>
 		<Insulation_Heat>1</Insulation_Heat>
 	</statBases>
 	<equippedStatOffsets>
-		<MoveSpeed>-0.05</MoveSpeed>
-		<PsychicSensitivity>-0.05</PsychicSensitivity>
-		<ToxicSensitivity>-0.10</ToxicSensitivity>
+		<PsychicSensitivity>-0.10</PsychicSensitivity>
+		<ToxicSensitivity>-0.15</ToxicSensitivity>
 	</equippedStatOffsets>
 	<costList>
-		<ComponentIndustrial>4</ComponentIndustrial>
-		<Steel>125</Steel>
+		<ComponentIndustrial>2</ComponentIndustrial>
+		<Steel>100</Steel>
 	</costList>
 	<apparel>
 		<bodyPartGroups>
@@ -118,6 +124,12 @@
 			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
+		<recipeMaker>
+		<skillRequirements>
+			<Intellectual>2</Intellectual>
+			<Crafting>4</Crafting>      
+		</skillRequirements>
+	</recipeMaker>
 </ThingDef>
 
 <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -133,25 +145,24 @@
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<statBases>
-		<WorkToMake>30000</WorkToMake>
-		<Mass>1.5</Mass>
-		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToMake>20000</WorkToMake>
+		<Mass>2.0</Mass>
+		<MaxHitPoints>600</MaxHitPoints>
 		<MarketValue>1425</MarketValue>
-		<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
 		<ArmorRating_Heat>0.60</ArmorRating_Heat>
 		<Insulation_Cold>2</Insulation_Cold>
 		<Insulation_Heat>2</Insulation_Heat>
 	</statBases>
 	<equippedStatOffsets>
-		<MoveSpeed>-0.25</MoveSpeed>
-		<PsychicSensitivity>-0.15</PsychicSensitivity>
-		<ToxicSensitivity>-0.15</ToxicSensitivity>
+		<PsychicSensitivity>-0.25</PsychicSensitivity>
+		<ToxicSensitivity>-0.25</ToxicSensitivity>
 	</equippedStatOffsets>
 	<costList>
-		<ComponentIndustrial>6</ComponentIndustrial>
-		<Plasteel>50</Plasteel>
-		<Steel>80</Steel>
+		<ComponentIndustrial>3</ComponentIndustrial>
+		<Plasteel>40</Plasteel>
+		<Steel>60</Steel>
 	</costList>
 	<apparel>
 		<bodyPartGroups>
@@ -170,6 +181,12 @@
 			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
+	<recipeMaker>
+		<skillRequirements>
+			<Intellectual>4</Intellectual>
+			<Crafting>6</Crafting>      
+		</skillRequirements>
+	</recipeMaker>
 </ThingDef>
 
 <!-- <ThingDef ParentName="ArmorHelmetMakeableBase">

@@ -15,17 +15,19 @@
 		<researchPrerequisite>PFabricAug</researchPrerequisite>
 	</recipeMaker>
 	<costList>
-		<Synthread>80</Synthread>
+		<Synthread>60</Synthread>
 	</costList>
 	<thingCategories>
 		<li>Apparel</li>
 	</thingCategories>
 	<statBases>
 		<Flammability>1</Flammability>
-		<Mass>0.45</Mass>
+		<Mass>2</Mass>
 		<MarketValue>750</MarketValue>
 		<WorkToMake>20000</WorkToMake>
-		<ArmorRating_Heat>0.5</ArmorRating_Heat>
+		<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.6</ArmorRating_Heat>
 		<Insulation_Cold>5</Insulation_Cold>
 		<Insulation_Heat>5</Insulation_Heat>
 	</statBases>
@@ -70,8 +72,8 @@
 		<researchPrerequisite>PFabricAug</researchPrerequisite>
 	</recipeMaker>
 	<costList>
-		<Steel>30</Steel>
-		<Synthread>80</Synthread>
+		<Steel>20</Steel>
+		<Synthread>60</Synthread>
 		<PFHardenedLeather>10</PFHardenedLeather>
 	</costList>
 	<thingCategories>
@@ -79,12 +81,12 @@
 	</thingCategories>
 	<statBases>
 		<Flammability>1</Flammability>
-		<Mass>4</Mass>
+		<Mass>5</Mass>
 		<WorkToMake>25000</WorkToMake>
 		<MarketValue>850</MarketValue>
-		<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-		<ArmorRating_Heat>0.5</ArmorRating_Heat>
+		<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+		<ArmorRating_Heat>0.6</ArmorRating_Heat>
 		<Insulation_Cold>4</Insulation_Cold>
 		<Insulation_Heat>5</Insulation_Heat>
 	</statBases>
@@ -129,6 +131,7 @@
 	</recipeMaker>
 	<costList>
 		<Synthread>40</Synthread>
+		<Plasteel>5</Plasteel>
 		<PFHardenedLeather>10</PFHardenedLeather>
 	</costList>
 	<thingCategories>
@@ -136,11 +139,11 @@
 	</thingCategories>
 	<statBases>
 		<Flammability>0.5</Flammability>
-		<Mass>0.9</Mass>
+		<Mass>1.5</Mass>
 		<MarketValue>600</MarketValue>
 		<WorkToMake>25000</WorkToMake>
-		<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
 		<Insulation_Cold>-1</Insulation_Cold>
 		<Insulation_Heat>1</Insulation_Heat>
 	</statBases>
@@ -188,11 +191,11 @@
 	</thingCategories>
     <statBases>
 		<Flammability>0.5</Flammability>
-		<Mass>0.2</Mass>
+		<Mass>0.5</Mass>
 		<MarketValue>300</MarketValue>
 		<WorkToMake>15000</WorkToMake>
-		<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.50</ArmorRating_Sharp>
     </statBases>
     <equippedStatOffsets>
 		<PsychicSensitivity>-0.1</PsychicSensitivity>
@@ -263,6 +266,10 @@
 			<li>Worker</li>
 		</defaultOutfitTags>
 	</apparel>
+		<skillRequirements>
+			<Intellectual>4</Intellectual>
+			<Crafting>4</Crafting>      
+		</skillRequirements>
 </ThingDef>
   
 <ThingDef ParentName="ApparelMakeableBase">
@@ -275,8 +282,8 @@
 	</graphicData>
 	<techLevel>Spacer</techLevel>
 	<costList>
-		<Plasteel>40</Plasteel>
-		<ComponentIndustrial>10</ComponentIndustrial>
+		<Plasteel>30</Plasteel>
+		<ComponentIndustrial>3</ComponentIndustrial>
 		<Gold>2</Gold>
 	</costList>
 	<thingCategories>
@@ -295,13 +302,6 @@
 		<ResearchSpeed>0.05</ResearchSpeed>
 	</equippedStatOffsets>
 	<apparel>
-		<bodyPartGroups>
-			<li>LeftHand</li>
-		</bodyPartGroups>
-		<wornGraphicPath>Things/Fallout/Apparel/Pipboy/Blank/Blank</wornGraphicPath>
-		<layers>
-			<li>Shell</li>
-		</layers>
 		<tags>
 			<li>PFVault</li>
 			<li>Outlander</li>
@@ -311,6 +311,10 @@
 			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
+		<skillRequirements>
+			<Intellectual>6</Intellectual>
+			<Crafting>6</Crafting>      
+		</skillRequirements>
 </ThingDef>
   
 <ThingDef ParentName="ApparelMakeableBase">
@@ -323,8 +327,8 @@
 	</graphicData>
 	<techLevel>Spacer</techLevel>
 	<costList>
-		<Plasteel>20</Plasteel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+		<Plasteel>15</Plasteel>
+		<ComponentIndustrial>2</ComponentIndustrial>
 		<Gold>1</Gold>
 	</costList>
 	<thingCategories>
@@ -343,13 +347,6 @@
 		<ResearchSpeed>0.025</ResearchSpeed>
 	</equippedStatOffsets>
 	<apparel>
-		<bodyPartGroups>
-			<li>LeftHand</li>
-		</bodyPartGroups>
-		<wornGraphicPath>Things/Fallout/Apparel/Pipboy/Blank/Blank</wornGraphicPath>
-		<layers>
-			<li>Shell</li>
-		</layers>
 		<tags>
 			<li>PFVault</li>
 			<li>Outlander</li>
@@ -359,6 +356,12 @@
 			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
+	<recipeMaker>
+		<skillRequirements>
+			<Intellectual>4</Intellectual>
+			<Crafting>4</Crafting>      
+		</skillRequirements>
+	</recipeMaker>
 </ThingDef>
   
 </Defs>
