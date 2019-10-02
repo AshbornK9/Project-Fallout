@@ -268,10 +268,10 @@
 	</apparel>
 		<skillRequirements>
 			<Intellectual>4</Intellectual>
-			<Crafting>4</Crafting>      
+			<Crafting>4</Crafting>
 		</skillRequirements>
 </ThingDef>
-  
+
 <ThingDef ParentName="ApparelMakeableBase">
 	<defName>Apparel_PFPipboy3000Vault</defName>
 	<label>Pipboy 3000</label>
@@ -302,6 +302,12 @@
 		<ResearchSpeed>0.05</ResearchSpeed>
 	</equippedStatOffsets>
 	<apparel>
+		<layers>
+			<li>Middle</li>
+		</layers>
+		<bodyPartGroups>
+			<li>Arms</li>
+		</bodyPartGroups>
 		<tags>
 			<li>PFVault</li>
 			<li>Outlander</li>
@@ -313,10 +319,10 @@
 	</apparel>
 		<skillRequirements>
 			<Intellectual>6</Intellectual>
-			<Crafting>6</Crafting>      
+			<Crafting>6</Crafting>
 		</skillRequirements>
 </ThingDef>
-  
+
 <ThingDef ParentName="ApparelMakeableBase">
 	<defName>Apparel_PFPipboy2000Vault</defName>
 	<label>Pipboy 2000</label>
@@ -359,9 +365,9 @@
 	<recipeMaker>
 		<skillRequirements>
 			<Intellectual>4</Intellectual>
-			<Crafting>4</Crafting>      
+			<Crafting>4</Crafting>
 		</skillRequirements>
 	</recipeMaker>
 </ThingDef>
-  
+
 </Defs>
