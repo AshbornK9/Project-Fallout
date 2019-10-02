@@ -228,6 +228,10 @@
 	<techLevel>Spacer</techLevel>
 	<recipeMaker>
 		<researchPrerequisite>PFabricAug</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>4</Intellectual>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 	</recipeMaker>
 	<costList>
 		<Synthread>30</Synthread>
@@ -266,12 +270,8 @@
 			<li>Worker</li>
 		</defaultOutfitTags>
 	</apparel>
-		<skillRequirements>
-			<Intellectual>4</Intellectual>
-			<Crafting>4</Crafting>      
-		</skillRequirements>
 </ThingDef>
-  
+
 <ThingDef ParentName="ApparelMakeableBase">
 	<defName>Apparel_PFPipboy3000Vault</defName>
 	<label>Pipboy 3000</label>
@@ -281,6 +281,12 @@
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<techLevel>Spacer</techLevel>
+	<recipeMaker>
+		<skillRequirements>
+			<Intellectual>6</Intellectual>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+	</recipeMaker>
 	<costList>
 		<Plasteel>30</Plasteel>
 		<ComponentIndustrial>3</ComponentIndustrial>
@@ -302,6 +308,13 @@
 		<ResearchSpeed>0.05</ResearchSpeed>
 	</equippedStatOffsets>
 	<apparel>
+		<layers>
+			<li>Middle</li>
+		</layers>
+		<bodyPartGroups>
+			<li>LeftHand</li>
+			<li>RightHand</li>
+		</bodyPartGroups>
 		<tags>
 			<li>PFVault</li>
 			<li>Outlander</li>
@@ -311,12 +324,8 @@
 			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
-		<skillRequirements>
-			<Intellectual>6</Intellectual>
-			<Crafting>6</Crafting>      
-		</skillRequirements>
 </ThingDef>
-  
+
 <ThingDef ParentName="ApparelMakeableBase">
 	<defName>Apparel_PFPipboy2000Vault</defName>
 	<label>Pipboy 2000</label>
@@ -347,6 +356,13 @@
 		<ResearchSpeed>0.025</ResearchSpeed>
 	</equippedStatOffsets>
 	<apparel>
+		<layers>
+			<li>Middle</li>
+		</layers>
+		<bodyPartGroups>
+			<li>LeftHand</li>
+			<li>RightHand</li>
+		</bodyPartGroups>
 		<tags>
 			<li>PFVault</li>
 			<li>Outlander</li>
@@ -359,9 +375,9 @@
 	<recipeMaker>
 		<skillRequirements>
 			<Intellectual>4</Intellectual>
-			<Crafting>4</Crafting>      
+			<Crafting>4</Crafting>
 		</skillRequirements>
 	</recipeMaker>
 </ThingDef>
-  
+
 </Defs>

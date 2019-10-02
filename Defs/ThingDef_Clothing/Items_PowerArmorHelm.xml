@@ -27,6 +27,10 @@
 	<techLevel>Spacer</techLevel>
 	<recipeMaker>
 		<researchPrerequisite>PFAdvancedPowerArmor</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>6</Intellectual>
+			<Crafting>8</Crafting>
+		</skillRequirements>
 	</recipeMaker>
 	<graphicData>
 		<texPath>Things/Fallout/Apparel/PowerArmor/X-01/Helmet/X-01Helm_south</texPath>
@@ -70,12 +74,6 @@
 			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
-	<recipeMaker>
-		<skillRequirements>
-			<Intellectual>6</Intellectual>
-			<Crafting>8</Crafting>      
-		</skillRequirements>
-	</recipeMaker>
 </ThingDef>
 
 <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -85,6 +83,10 @@
 	<techLevel>Spacer</techLevel>
 	<recipeMaker>
 		<researchPrerequisite>Machining</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>2</Intellectual>
+			<Crafting>4</Crafting>
+		</skillRequirements>
 	</recipeMaker>
 	<graphicData>
 		<texPath>Things/Fallout/Apparel/PowerArmor/Raider/Helmet/RaiderPAHelmet_south</texPath>
@@ -124,12 +126,6 @@
 			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
-		<recipeMaker>
-		<skillRequirements>
-			<Intellectual>2</Intellectual>
-			<Crafting>4</Crafting>      
-		</skillRequirements>
-	</recipeMaker>
 </ThingDef>
 
 <ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -139,6 +135,10 @@
 	<techLevel>Industrial</techLevel>
 	<recipeMaker>
 		<researchPrerequisite>PoweredArmor</researchPrerequisite>
+		<skillRequirements>
+			<Intellectual>4</Intellectual>
+			<Crafting>6</Crafting>
+		</skillRequirements>
 	</recipeMaker>
 	<graphicData>
 		<texPath>Things/Fallout/Apparel/PowerArmor/T-45/Helmet/T-45PAHelm_south</texPath>
@@ -181,12 +181,6 @@
 			<li>Soldier</li>
 		</defaultOutfitTags>
 	</apparel>
-	<recipeMaker>
-		<skillRequirements>
-			<Intellectual>4</Intellectual>
-			<Crafting>6</Crafting>      
-		</skillRequirements>
-	</recipeMaker>
 </ThingDef>
 
 <!-- <ThingDef ParentName="ArmorHelmetMakeableBase">
