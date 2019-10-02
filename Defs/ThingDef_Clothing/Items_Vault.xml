@@ -303,10 +303,10 @@
 	</equippedStatOffsets>
 	<apparel>
 		<layers>
-			<li>Middle</li>
+			<li>OnSkin</li>
 		</layers>
 		<bodyPartGroups>
-			<li>Arms</li>
+			<li>LeftHand</li>
 		</bodyPartGroups>
 		<tags>
 			<li>PFVault</li>
@@ -353,6 +353,12 @@
 		<ResearchSpeed>0.025</ResearchSpeed>
 	</equippedStatOffsets>
 	<apparel>
+		<layers>
+			<li>OnSkin</li>
+		</layers>
+		<bodyPartGroups>
+			<li>LeftHand</li>
+		</bodyPartGroups>
 		<tags>
 			<li>PFVault</li>
 			<li>Outlander</li>
