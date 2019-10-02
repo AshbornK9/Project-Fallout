@@ -309,10 +309,11 @@
 	</equippedStatOffsets>
 	<apparel>
 		<layers>
-			<li>OnSkin</li>
+			<li>Middle</li>
 		</layers>
 		<bodyPartGroups>
 			<li>LeftHand</li>
+			<li>RightHand</li>
 		</bodyPartGroups>
 		<tags>
 			<li>PFVault</li>
@@ -356,10 +357,11 @@
 	</equippedStatOffsets>
 	<apparel>
 		<layers>
-			<li>OnSkin</li>
+			<li>Middle</li>
 		</layers>
 		<bodyPartGroups>
 			<li>LeftHand</li>
+			<li>RightHand</li>
 		</bodyPartGroups>
 		<tags>
 			<li>PFVault</li>
