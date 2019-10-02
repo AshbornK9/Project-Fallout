@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef Abstract="True" Name="BaseLaserGun" ParentName="BaseGun">
+	<ThingDef Abstract="True" Name="BaseLaserGun" ParentName="PFBaseGun">
 		<weaponTags>
 				<li>SpacerGun</li>
 				<li>IndustrialGunAdvanced</li>
 		</weaponTags>
 	</ThingDef>
 
-	<ThingDef Abstract="True" Name="BaseLaserMakeableGun" ParentName="BaseMakeableGun">
+	<ThingDef Abstract="True" Name="BaseLaserMakeableGun" ParentName="PFBaseMakeableGun">
 		<weaponTags>
 			<li>SpacerGun</li>
 			<li>IndustrialGunAdvanced</li>
@@ -40,6 +40,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPFLaserRifle</soundInteract>
+		<thingCategories>
+			<li>PFLaserRifles</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>18000</WorkToMake>
 			<Mass>3.2</Mass>
@@ -125,6 +128,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPFLaserRifle</soundInteract>
+		<thingCategories>
+			<li>PFLaserShotgun</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>22000</WorkToMake>
 			<Mass>3.35</Mass>
@@ -184,7 +190,7 @@
 			</li>
 		</tools>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="BaseBullet">
 		<defName>Bullet_PFW2000LaserRifle</defName>
 		<label>MF Cell</label>
@@ -210,6 +216,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPFLaserRifle</soundInteract>
+		<thingCategories>
+			<li>PFLaserRifles</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>18000</WorkToMake>
 			<Mass>4</Mass>
@@ -293,6 +302,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPFLaserRifle</soundInteract>
+		<thingCategories>
+			<li>PFLaserPistols</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>12500</WorkToMake>
 			<Mass>1.2</Mass>
@@ -381,6 +393,9 @@
 		<thingSetMakerTags>
 		<li>RewardSpecial</li>
 		</thingSetMakerTags>
+		<thingCategories>
+			<li>PFLaserPistols</li>
+		</thingCategories>
 		<statBases>
 			<MarketValue>1500</MarketValue>
 			<Mass>1.35</Mass>
@@ -452,6 +467,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPFLaserRifle</soundInteract>
+		<thingCategories>
+			<li>PFLaserPistols</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>11000</WorkToMake>
 			<Mass>1.15</Mass>
@@ -517,6 +535,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractLaserGatling</soundInteract>
+		<thingCategories>
+			<li>PFLaserHeavy</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>50000</WorkToMake>
 			<Mass>10</Mass>
@@ -607,6 +628,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPFLaserRifle</soundInteract>
+		<thingCategories>
+			<li>PFLaserRifles</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>50000</WorkToMake>
 			<Mass>2.75</Mass>
@@ -691,6 +715,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPFLaserRifle</soundInteract>
+		<thingCategories>
+			<li>PFLaserRifles</li>
+		</thingCategories>
 		<statBases>
 			<WorkToMake>175000</WorkToMake>
 			<MarketValue>1250</MarketValue>
