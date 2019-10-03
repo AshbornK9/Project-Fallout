@@ -76,15 +76,15 @@
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<statBases>
-		<WorkToMake>150000</WorkToMake>
-		<Mass>12</Mass>
-		<MaxHitPoints>900</MaxHitPoints>
+		<WorkToMake>60000</WorkToMake>
+		<Mass>18</Mass>
+		<MaxHitPoints>800</MaxHitPoints>
 		<MarketValue>7500</MarketValue>
-		<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+		<ArmorRating_Sharp>1.15</ArmorRating_Sharp>
 		<ArmorRating_Heat>0.85</ArmorRating_Heat>
-		<Insulation_Cold>10</Insulation_Cold>
-		<Insulation_Heat>10</Insulation_Heat>
+		<Insulation_Cold>40</Insulation_Cold>
+		<Insulation_Heat>12</Insulation_Heat>
 		<EquipDelay>4</EquipDelay>
 	</statBases>
 	<equippedStatOffsets>
@@ -105,6 +105,7 @@
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Shoulders</li>
+			<li>Neck</li>
 			<li>Arms</li>
 			<li>Legs</li>
 			<li>Feet</li>
@@ -142,20 +143,20 @@
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<statBases>
-		<WorkToMake>50000</WorkToMake>
-		<Mass>17</Mass>
+		<WorkToMake>40000</WorkToMake>
+		<Mass>12</Mass>
 		<MaxHitPoints>300</MaxHitPoints>
 		<MarketValue>800</MarketValue>
-		<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+		<ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
 		<ArmorRating_Heat>0.50</ArmorRating_Heat>
-		<Insulation_Cold>3</Insulation_Cold>
-		<Insulation_Heat>3</Insulation_Heat>
+		<Insulation_Cold>15</Insulation_Cold>
+		<Insulation_Heat>5</Insulation_Heat>
 		<EquipDelay>4</EquipDelay>
 	</statBases>
 	<equippedStatOffsets>
 		<MoveSpeed>-0.10</MoveSpeed>
-		<WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+		<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
 		<ToxicSensitivity>-0.3</ToxicSensitivity>
 	</equippedStatOffsets>
 	<thingCategories>
@@ -169,6 +170,7 @@
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Shoulders</li>
+			<li>Neck</li>
 			<li>Arms</li>
 			<li>Legs</li>
 			<li>Feet</li>
@@ -206,15 +208,14 @@
 		<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<statBases>
-		<WorkToMake>100000</WorkToMake>
-		<Mass>15</Mass>
-		<MaxHitPoints>500</MaxHitPoints>
-		<MarketValue>2500</MarketValue>
-		<ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-		<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+		<WorkToMake>50000</WorkToMake>
+		<Mass>14</Mass>
+		<MaxHitPoints>800</MaxHitPoints>
+		<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+		<ArmorRating_Sharp>0.90</ArmorRating_Sharp>
 		<ArmorRating_Heat>0.60</ArmorRating_Heat>
-		<Insulation_Cold>5</Insulation_Cold>
-		<Insulation_Heat>5</Insulation_Heat>
+		<Insulation_Cold>30</Insulation_Cold>
+		<Insulation_Heat>8</Insulation_Heat>
 		<EquipDelay>4</EquipDelay>
 	</statBases>
 	<equippedStatOffsets>
@@ -232,6 +233,7 @@
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Shoulders</li>
+			<li>Neck</li>
 			<li>Arms</li>
 			<li>Legs</li>
 			<li>Feet</li>
