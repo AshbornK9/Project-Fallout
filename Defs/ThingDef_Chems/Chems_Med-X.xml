@@ -45,7 +45,8 @@
 </recipeUsers>
 </recipeMaker>
 <costList>
-<Neutroamine>2</Neutroamine>
+	<MedicineIndustrial>1</MedicineIndustrial>
+	<PsychoidLeaves>3</PsychoidLeaves>
 </costList>
 <comps>
 <li Class="CompProperties_Drug">

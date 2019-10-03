@@ -46,7 +46,7 @@
 </recipeUsers>
 </recipeMaker>
 <costList>
-<Neutroamine>4</Neutroamine>
+<Neutroamine>1</Neutroamine>
 <Yayo>1</Yayo>
 <MedicineIndustrial>2</MedicineIndustrial>
 </costList>
@@ -88,7 +88,7 @@
 </li>
 <li>
 <capacity>Consciousness</capacity>
-<offset>0.25</offset>
+<offset>0.30</offset>
 </li>
 <li>
 <capacity>Manipulation</capacity>
