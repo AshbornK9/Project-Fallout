@@ -2,25 +2,27 @@
 
 <Defs>
 
+<!--
 <ThingDef Abstract="True" Name="ResourceCraftBase">
-<thingClass>ThingWithComps</thingClass>
-<label>unspecified resource</label>
-<category>Item</category>
-<resourceReadoutPriority>Middle</resourceReadoutPriority>
-<useHitPoints>true</useHitPoints>
-<selectable>true</selectable>
-<altitudeLayer>Item</altitudeLayer>
-<stackLimit>75</stackLimit>
-<comps>
-<li Class="CompProperties_Forbiddable"/>
-</comps>
-<alwaysHaulable>true</alwaysHaulable>
-<drawGUIOverlay>true</drawGUIOverlay>
-<rotatable>false</rotatable>
-<pathCost>15</pathCost>
+	<thingClass>ThingWithComps</thingClass>
+	<label>unspecified resource</label>
+	<category>Item</category>
+	<resourceReadoutPriority>Middle</resourceReadoutPriority>
+	<useHitPoints>true</useHitPoints>
+	<selectable>true</selectable>
+	<altitudeLayer>Item</altitudeLayer>
+	<stackLimit>75</stackLimit>
+	<comps>
+		<li Class="CompProperties_Forbiddable"/>
+	</comps>
+	<alwaysHaulable>true</alwaysHaulable>
+	<drawGUIOverlay>true</drawGUIOverlay>
+	<rotatable>false</rotatable>
+	<pathCost>15</pathCost>
 </ThingDef>
+-->
 
-<ThingDef Abstract="True" ParentName="ResourceCraftBase" Name="PFLeatherBase">
+<ThingDef Abstract="True" ParentName="ResourceBase" Name="PFLeatherBase">
 <recipeMaker>
 <workSpeedStat>TailoringSpeed</workSpeedStat>
 <workSkill>Crafting</workSkill>
@@ -47,7 +49,7 @@
 </recipeMaker>
 </ThingDef>
 
-<ThingDef Abstract="True" ParentName="ResourceCraftBase" Name="PFSyringeBase">
+<ThingDef Abstract="True" ParentName="ResourceBase" Name="PFSyringeBase">
 <recipeMaker>
 <workSpeedStat>SmithingSpeed</workSpeedStat>
 <workSkill>Crafting</workSkill>
@@ -157,30 +159,27 @@
 </ThingDef>
 
 <ThingDef ParentName="PFLeatherBase">
-<defName>PFHardenedLeather</defName>
-<label>Hardened Leather</label>
-<description>Leather that has been reinforced for use in light armor. (Currently only used for Armored Vault Jumpsuit)</description>
-<graphicData>
-<texPath>Things/Fallout/Crafting/HardLeather</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<costStuffCount>2</costStuffCount>
-<stuffCategories>
-<li>Leathery</li>
-</stuffCategories>
-<resourceReadoutPriority>Middle</resourceReadoutPriority>
-<stackLimit>75</stackLimit>
-<useHitPoints>true</useHitPoints>
-<statBases>
-<WorkToMake>20</WorkToMake>
-<MaxHitPoints>100</MaxHitPoints>
-<Flammability>1</Flammability>
-<MarketValue>7.5</MarketValue>
-<Mass>0.2</Mass>
-</statBases>
-<thingCategories>
-<li>Textiles</li>
-</thingCategories>
+	<defName>PFHardenedLeather</defName>
+	<label>Hardened Leather</label>
+	<description>Leather that has been reinforced for use in light armor.</description>
+	<graphicData>
+		<texPath>Things/Fallout/Crafting/HardLeather</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<costStuffCount>2</costStuffCount>
+	<stuffCategories>
+		<li>Leathery</li>
+	</stuffCategories>
+	<resourceReadoutPriority>Middle</resourceReadoutPriority>
+	<stackLimit>75</stackLimit>
+	<useHitPoints>true</useHitPoints>
+	<statBases>
+		<WorkToMake>20</WorkToMake>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Flammability>1</Flammability>
+		<MarketValue>6</MarketValue>
+		<Mass>0.4</Mass>
+	</statBases>
 </ThingDef>
 
 </Defs>
