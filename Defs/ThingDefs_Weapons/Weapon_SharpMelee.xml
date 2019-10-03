@@ -96,7 +96,7 @@
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
 			<Steel>50</Steel>
-			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<soundInteract>PFInteractRipper</soundInteract>
 		<thingCategories>
@@ -113,7 +113,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>1</power>
+				<power>3</power>
 				<cooldownTime>0.2</cooldownTime>
 			</li>
 			<li>
@@ -121,7 +121,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>2</power>
+				<power>5</power>
 				<cooldownTime>0.2</cooldownTime>
 			</li>
 		</tools>
