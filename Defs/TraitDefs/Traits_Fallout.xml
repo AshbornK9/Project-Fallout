@@ -70,7 +70,7 @@
 	<li>PFIntenseTraining</li>
 	<li>TooSmart</li>
 	</conflictingTraits>
-	
+
 </TraitDef>
 
 <TraitDef>
@@ -140,7 +140,7 @@
 	<conflictingTraits>
 	<li>PFGifted</li>
 	</conflictingTraits>
-	
+
 </TraitDef>
 
 <TraitDef>
@@ -404,7 +404,7 @@
 			</li>
 			</skillGains>
 			<statOffsets>
-				<ShootingAccuracy>0.10</ShootingAccuracy>
+				<ShootingAccuracyPawn>0.10</ShootingAccuracyPawn>
 				<AimingDelayFactor>-0.15</AimingDelayFactor>
 			</statOffsets>
 			<randomMentalState>Binging_DrugMajor</randomMentalState>
@@ -505,7 +505,7 @@
 				</li>
 			</skillGains>
 		</li>
-		
+
 	</degreeDatas>
 </TraitDef>
 
@@ -658,7 +658,7 @@
 				<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 				<ImmunityGainSpeed>0.10</ImmunityGainSpeed>
 				<ToxicSensitivity>-0.15</ToxicSensitivity>
-				
+
 			</statOffsets>
 		</li>
 	</degreeDatas>
