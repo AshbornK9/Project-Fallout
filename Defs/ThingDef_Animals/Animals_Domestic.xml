@@ -74,6 +74,7 @@
 			<MoveSpeed>3</MoveSpeed>
 			<ComfyTemperatureMin>-18</ComfyTemperatureMin>
 			<MarketValue>375</MarketValue>
+			<ToxicSensitivity>-1.0</ToxicSensitivity>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Milkable">
