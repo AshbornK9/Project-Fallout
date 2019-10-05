@@ -31,7 +31,7 @@
 <label>Varmint Rifle</label>
 <description>A sturdy bolt-action rifle widely used around the wastelands, although quite accurate, it does suffer fairly low stopping power for a rifle.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/VarmintRifle_Org</texPath>
+<texPath>Things/Fallout/Weapons/Guns/VarmintRifle</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Rifle</soundInteract>
@@ -113,7 +113,7 @@
 <label>Ratslayer</label>
 <description>A unique lighter weight variant of the "Varmint" model bolt-action rifle with a scope, silencer, and higher stopping power.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/Ratslayer_Org</texPath>
+<texPath>Things/Fallout/Weapons/Guns/Ratslayer</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Rifle</soundInteract>
@@ -266,7 +266,7 @@
 <label>Assault Carbine</label>
 <description>A magazine-fed compact automatic rifle with a high firing rate and comparatively good accuracy. A deadly weapon in the right hands, it can be used effectively at close to mid range combat.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/Assault_Carbine_Custom</texPath>
+<texPath>Things/Fallout/Weapons/Guns/Assault_Carbine</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Rifle</soundInteract>
@@ -512,7 +512,7 @@
 <label>BB Gun</label>
 <description>A BB gun that fires tiny metal pellets, it hits about as hard as a poorly thrown rock. It has the potential to do some damage to smaller targets, thanks to it's accuracy and fire-rate, but you need to put a lot of shots down range for any real effect.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/BB_Gun_Custom</texPath>
+<texPath>Things/Fallout/Weapons/Guns/BB_Gun</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <thingCategories>

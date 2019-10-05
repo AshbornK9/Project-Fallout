@@ -275,7 +275,7 @@
 		<label>Multiplas Rifle</label>
 		<description>A scattergun that fires 3 superheated plasma bolts to utterly melt one's target, provided they hit...</description>
 		<graphicData>
-			<texPath>Things/Fallout/Weapons/Guns/PlasmaRifle2</texPath>
+			<texPath>Things/Fallout/Weapons/Guns/Multiplas_Rifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>InteractPlasmaPistol</soundInteract>

@@ -23,7 +23,7 @@
 <label>.357 Magnum</label>
 <description>A single action, fixed-cylinder revolver with lower stopping power, but higher accuracy compared to its counterpart the .44 Magnum.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/357_Magnum_Org</texPath>
+<texPath>Things/Fallout/Weapons/Guns/357_Magnum</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Revolver</soundInteract>
@@ -109,7 +109,7 @@
 <label>Lucky</label>
 <description>A unique variant of the .357 single action, fixed-cylinder revolver with more stopping power, accuracy, and firing rate.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/Lucky_Org</texPath>
+<texPath>Things/Fallout/Weapons/Guns/Lucky</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <thingSetMakerTags>
@@ -183,7 +183,7 @@
 <label>.44 Magnum</label>
 <description>A double action, swing-out cylinder revolver with higher stopping power but lower accuracy compared to its counterpart the .357 Magnum</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/44_Magnum_Org</texPath>
+<texPath>Things/Fallout/Weapons/Guns/44_Magnum</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Revolver</soundInteract>
@@ -267,7 +267,7 @@
 <label>Mysterious Magnum</label>
 <description>A unique variant of the .44 Magnum double action, swing-out cylinder revolver that has increased stopping power, accuracy, and range.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/MysteriousMagnum_Org</texPath>
+<texPath>Things/Fallout/Weapons/Guns/Mysterious_Magnum</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <thingSetMakerTags>
@@ -340,7 +340,7 @@
 <label>9mm Pistol</label>
 <description>A semi-automatic handgun, used as the standard issue side-arm of the New California Republic Army, and is one of the most common guns in the wastelands.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/9mm_Pistol_Org</texPath>
+<texPath>Things/Fallout/Weapons/Guns/9mmPistol</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Autopistol</soundInteract>
@@ -423,7 +423,7 @@
 <label>Maria</label>
 <description>A unique variant of the 9mm semi-automatic handgun, with higher damage and accuracy. This was the weapon that "killed" The Courier.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/Maria_Org</texPath>
+<texPath>Things/Fallout/Weapons/Guns/Maria</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <thingSetMakerTags>
@@ -496,7 +496,7 @@
 <label>10mm Pistol</label>
 <description>The N99 10mm sidearm, used as standard issue military gear after it's predecessor, the N80 was phased out in 2051. An extremely durable weapon, this model sees extensive use all across the wastes.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/10mm_Pistol_Org</texPath>
+<texPath>Things/Fallout/Weapons/Guns/10mm_Pistol</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Autopistol</soundInteract>
@@ -581,7 +581,7 @@
 <label>12.7mm Pistol</label>
 <description>A Swiss SIG-Sauer 14mm handgun that has been rechambered for 12.7mm ammunition. Fairly common before the nukes dropped, the number of surviving models is slowly dwindling.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/12.7 Pistol_Org</texPath>
+<texPath>Things/Fallout/Weapons/Guns/12.7mm_Pistol</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_Revolver</soundInteract>

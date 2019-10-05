@@ -22,7 +22,7 @@
 <label>9mm SMG</label>
 <description>A small fast firing inaccurate submachine gun, used more for spray-and-pray tactics than for any accurate shooting.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/9mmSMG</texPath>
+<texPath>Things/Fallout/Weapons/Guns/9mm_SMG</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_SMG</soundInteract>
@@ -106,7 +106,7 @@
 <label>10mm SMG</label>
 <description>A hybrid between a Heavy SMG and a rapid fire Light SMG, the 10mm SMG is used for outputting plenty of rounds with moderate accuracy.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/10mmSMG</texPath>
+<texPath>Things/Fallout/Weapons/Guns/10mm_SMG</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_SMG</soundInteract>
@@ -265,7 +265,7 @@
 <label>12.7mm SMG</label>
 <description>A heavier caliber SMG that packs more of a punch than other most, but has a slow rate of fire.</description>
 <graphicData>
-<texPath>Things/Fallout/Weapons/Guns/12.7mmSMG</texPath>
+<texPath>Things/Fallout/Weapons/Guns/12.7mm_SMG</texPath>
 <graphicClass>Graphic_Single</graphicClass>
 </graphicData>
 <soundInteract>Interact_SMG</soundInteract>
