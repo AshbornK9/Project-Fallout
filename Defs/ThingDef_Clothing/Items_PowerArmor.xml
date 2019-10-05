@@ -91,6 +91,8 @@
 		<MoveSpeed>0.10</MoveSpeed>
 		<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
 		<ToxicSensitivity>-0.5</ToxicSensitivity>
+		<CarryingCapacity>50</CarryingCapacity>
+		<MeleeHitChance>0.125</MeleeHitChance>
 	</equippedStatOffsets>
 	<thingCategories>
 		<li>Apparel</li>
@@ -158,6 +160,8 @@
 		<MoveSpeed>-0.10</MoveSpeed>
 		<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
 		<ToxicSensitivity>-0.3</ToxicSensitivity>
+		<CarryingCapacity>25</CarryingCapacity>
+		<MeleeHitChance>0.05</MeleeHitChance>
 	</equippedStatOffsets>
 	<thingCategories>
 		<li>Apparel</li>
@@ -220,6 +224,8 @@
 	</statBases>
 	<equippedStatOffsets>
 		<ToxicSensitivity>-0.4</ToxicSensitivity>
+		<CarryingCapacity>50</CarryingCapacity>
+		<MeleeHitChance>0.10</MeleeHitChance>
 	</equippedStatOffsets>
 	<thingCategories>
 		<li>Apparel</li>
