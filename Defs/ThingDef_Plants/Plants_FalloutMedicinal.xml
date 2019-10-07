@@ -2,7 +2,7 @@
 
 <Defs>
 
-	<ThingDef ParentName="PlantBase">
+	<ThingDef ParentName="PFPlantBase">
 		<defName>PFPlantXanderRoot</defName>
 		<label>Xander Root</label>
 		<description>A large turnip-like root with mild healing properties. When combined with a Broc Flower it can create herbal medicine or stimpaks.</description>
@@ -36,8 +36,8 @@
 			<purpose>Health</purpose>
 		</plant>
 	</ThingDef>
-	
-	<ThingDef ParentName="PlantBase">
+
+	<ThingDef ParentName="PFPlantBase">
 		<defName>PFPlantBrocFlower</defName>
 		<label>Broc Flower</label>
 		<description>A small orange flower with slight medicinal properties. When combined with a Xander Root it can create herbal medicine or stimpaks.</description>
@@ -72,5 +72,5 @@
 			<purpose>Health</purpose>
 		</plant>
 	</ThingDef>
-	
+
 </Defs>
