@@ -35,7 +35,6 @@
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>PFStimpakHeal</hediffDef>
 					<severity>0.01</severity>
-					<toleranceChemical>PFStimpakC</toleranceChemical>
 				</li>
 			</outcomeDoers>
 		</ingestible>
@@ -55,7 +54,6 @@
 		</costList>
 		<comps>
 			<li Class="CompProperties_Drug">
-				<chemical>PFStimpakC</chemical>
 				<addictiveness>0</addictiveness>
 				<minToleranceToAddict>0.9</minToleranceToAddict>
 				<existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
@@ -64,11 +62,5 @@
 			</li>
 		</comps>
 	</ThingDef>
-
-<ChemicalDef>
-	<defName>PFStimpakC</defName>
-	<label>Stimpak</label>
-	<canBinge>false</canBinge>
-</ChemicalDef>
 
 </Defs>
