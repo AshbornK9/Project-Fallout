@@ -2,7 +2,7 @@
 
 <Defs>
 
-	<ThingDef ParentName="AnimalThingBase">
+	<ThingDef ParentName="PFAnimalThingBase">
 		<defName>PFMoleRat</defName>
 		<label>Mole Rat</label>
 		<description>A giant genetically engineered naked mole rat. Their massive teeth can bite through solid bone or metal.</description>
@@ -104,7 +104,7 @@
 		</tradeTags>
 	</ThingDef>
 
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="PFAnimalKindBase">
 		<defName>PFMoleRat</defName>
 		<label>Mole Rat</label>
 		<race>PFMoleRat</race>

@@ -2,7 +2,7 @@
 
 <Defs>
 
- <ThingDef ParentName="AnimalThingBase">
+ <ThingDef ParentName="PFAnimalThingBase">
     <defName>PFGiantGecko</defName>
     <label>Giant Gecko</label>
     <description>A large mutated gecko. While not particularly strong, they move quite quickly and can kill quickly.</description>
@@ -107,7 +107,7 @@
     </tradeTags>
   </ThingDef>
 
-  <PawnKindDef ParentName="AnimalKindBase">
+  <PawnKindDef ParentName="PFAnimalKindBase">
     <defName>PFGiantGecko</defName>
     <label>Giant Gecko</label>
     <race>PFGiantGecko</race>

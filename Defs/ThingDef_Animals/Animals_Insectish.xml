@@ -2,7 +2,7 @@
 
 <Defs>
 
-  <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BasePFInsect">
+  <ThingDef Abstract="True" ParentName="PFAnimalThingBase" Name="BasePFInsect">
     <statBases>
       <ToxicSensitivity>0</ToxicSensitivity>
 	  <ComfyTemperatureMax>60</ComfyTemperatureMax>
@@ -102,7 +102,7 @@
     </tradeTags>
   </ThingDef>
 
-  <PawnKindDef ParentName="AnimalKindBase">
+  <PawnKindDef ParentName="PFAnimalKindBase">
     <defName>PFRadscorpion</defName>
     <label>Radscorpion</label>
     <race>PFRadscorpion</race>
@@ -226,7 +226,7 @@
     </tradeTags>
   </ThingDef>
 
-  <PawnKindDef ParentName="AnimalKindBase">
+  <PawnKindDef ParentName="PFAnimalKindBase">
     <defName>PFRadroach</defName>
     <label>Radroach</label>
     <race>PFRadroach</race>
