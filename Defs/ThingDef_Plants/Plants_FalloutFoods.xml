@@ -2,7 +2,7 @@
 
 <Defs>
 
-<ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PFPlantBase">
 <defName>PFPlantTato</defName>
 <label>Tato Plant</label>
 <description>A mutated hybrid of potatoes and tomatoes. It tastes horrible raw, and not much better cooked, but in the wasteland you can't complain.</description>
@@ -37,7 +37,7 @@
 </plant>
 </ThingDef>
 
-<ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PFPlantBase">
 <defName>PFPlantRazorgrain</defName>
 <label>Razorgrain Plant</label>
 <description>A distant descendant of wheat, it is able to grow in the harsh wasteland.</description>
@@ -74,7 +74,7 @@
 </plant>
 </ThingDef>
 
-<ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PFPlantBase">
 <defName>PFPlantMutfruit</defName>
 <label>Mutfruit Plant</label>
 <description>A mutated descendant of blueberries and blackberries, this crunchy berry is one of the best finds for hungry travellers.</description>
@@ -110,7 +110,7 @@
 </plant>
 </ThingDef>
 
-<ThingDef ParentName="PlantBase">
+<ThingDef ParentName="PFPlantBase">
 <defName>PFPlantTarberry</defName>
 <label>Tarberry Plant</label>
 <description>A descendant of cranberries, Tarberries are clusters of small purple berries. They are very hard to cultivate, but is very nutritious.</description>
@@ -147,7 +147,7 @@
 </plant>
 </ThingDef>
 
-	<ThingDef ParentName="PlantBase">
+	<ThingDef ParentName="PFPlantBase">
 		<defName>PFPlantBarrelCactus</defName>
 		<label>Barrel Cactus</label>
 		<description>A hardy cactus that can grow in most climates. It produces little edible food, but its fruit are quite nutritious.</description>

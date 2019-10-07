@@ -2,71 +2,7 @@
 
 <Defs>
 
-	<ThingDef Abstract="True" Name="BasePawn">
-		<thingClass>Pawn</thingClass>
-		<category>Pawn</category>
-		<selectable>true</selectable>
-		<tickerType>Normal</tickerType>
-		<altitudeLayer>Pawn</altitudeLayer>
-		<useHitPoints>false</useHitPoints>
-		<hasTooltip>true</hasTooltip>
-		<soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
-		<statBases>
-			<Mass>70</Mass>
-		</statBases>
-		<inspectorTabs>
-			<li>ITab_Pawn_Health</li>
-			<li>ITab_Pawn_Needs</li>
-			<li>ITab_Pawn_Character</li>
-			<li>ITab_Pawn_Training</li>
-			<li>ITab_Pawn_Social</li>
-			<li>ITab_Pawn_FormingCaravan</li>
-			<li>ITab_Pawn_Gear</li>
-			<li>ITab_Pawn_Guest</li>
-			<li>ITab_Pawn_Prisoner</li>
-			<li>ITab_Pawn_Social</li>
-			<li>ITab_Pawn_Log</li>
-		</inspectorTabs>
-		<comps>
-			<li>
-				<compClass>CompAttachBase</compClass>
-			</li>
-		</comps>
-		<drawGUIOverlay>true</drawGUIOverlay>
-	</ThingDef>
-
-
-	<ThingDef Abstract="True" Name="AnimalThingBase" ParentName="BasePawn">
-		<statBases>
-			<Flammability>1.0</Flammability>
-			<LeatherAmount>30</LeatherAmount>
-		</statBases>
-		<race>
-			<thinkTreeMain>Animal</thinkTreeMain>
-			<thinkTreeConstant>AnimalConstant</thinkTreeConstant>
-			<hasGenders>true</hasGenders>
-			<nameGenerator>NamerAnimalGenericMale</nameGenerator>
-			<nameGeneratorFemale>NamerAnimalGenericFemale</nameGeneratorFemale>
-			<manhunterOnDamageChance>0.02</manhunterOnDamageChance>
-			<manhunterOnTameFailChance>0.013</manhunterOnTameFailChance>
-			<nameOnNuzzleChance>0.5</nameOnNuzzleChance>
-			<trainability>Intermediate</trainability>
-			<hediffGiverSets>
-				<li>OrganicStandard</li>
-			</hediffGiverSets>
-		</race>
-		<recipes>
-			<li>ExciseCarcinoma</li>
-			<li>AdministerMechSerumHealer</li>
-			<li>RemoveBodyPart</li>
-			<li>Euthanize</li>
-			<li>Anesthetize</li>
-		</recipes>
-	</ThingDef>
-
-	<PawnKindDef Abstract="True" Name="AnimalKindBase"/>
-
-	<ThingDef ParentName="AnimalThingBase">
+	<ThingDef ParentName="PFAnimalThingBase">
 		<defName>PFBrahmin</defName>
 		<label>Brahmin</label>
 		<description>A distant descendent of cows, this two-headed mutated bovine is used for meat and milk in the wasteland.</description>
@@ -74,7 +10,6 @@
 			<MoveSpeed>3</MoveSpeed>
 			<ComfyTemperatureMin>-18</ComfyTemperatureMin>
 			<MarketValue>375</MarketValue>
-			<ToxicSensitivity>-1.0</ToxicSensitivity>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Milkable">
@@ -180,7 +115,7 @@
 		</tradeTags>
 	</ThingDef>
 
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="PFAnimalKindBase">
 		<defName>PFBrahmin</defName>
 		<label>Brahmin</label>
 		<race>PFBrahmin</race>
@@ -276,7 +211,7 @@
 		</lifeStages>
 	</PawnKindDef>
 
-<ThingDef ParentName="AnimalThingBase">
+<ThingDef ParentName="PFAnimalThingBase">
 	<defName>PFBighorner</defName>
 	<label>Bighorner</label>
 	<description>A distant descendent of bighorn sheep, this aggresive mutated animal is a good source of meat in the wasteland.</description>
@@ -379,7 +314,7 @@
 </tradeTags>
 </ThingDef>
 
-<PawnKindDef ParentName="AnimalKindBase">
+<PawnKindDef ParentName="PFAnimalKindBase">
 <defName>PFBighorner</defName>
 <label>Bighorner</label>
 <race>PFBighorner</race>
