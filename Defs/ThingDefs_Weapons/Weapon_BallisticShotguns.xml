@@ -3,20 +3,20 @@
 <Defs>
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFCaravanShotgun</defName>
-<label>20 Gauge Shell</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Shotgun</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>20</damageAmountBase>
-<stoppingPower>3.05</stoppingPower>
-<armorPenetrationBase>0.15</armorPenetrationBase>
-<speed>60</speed>
-</projectile>
+	<defName>Bullet_PFCaravanShotgun</defName>
+	<label>20 Gauge Shell</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>20</damageAmountBase>
+		<stoppingPower>3.05</stoppingPower>
+		<armorPenetrationBase>0.15</armorPenetrationBase>
+		<speed>60</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="PFBaseHumanMakeableGun">
@@ -26,7 +26,9 @@
 <graphicData>
 <texPath>Things/Fallout/Weapons/Guns/CaravanShotgun</texPath>
 <graphicClass>Graphic_Single</graphicClass>
+<onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
 </graphicData>
+<equippedAngleOffset>45</equippedAngleOffset>
 <soundInteract>Interact_Shotgun</soundInteract>
 <recipeMaker>
 	<skillRequirements>
@@ -83,20 +85,20 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFSCaravanShotgun</defName>
-<label>20 Gauge Shell</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Shotgun</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>22</damageAmountBase>
-<stoppingPower>3.1</stoppingPower>
-<armorPenetrationBase>0.16</armorPenetrationBase>
-<speed>65</speed>
-</projectile>
+	<defName>Bullet_PFSCaravanShotgun</defName>
+	<label>20 Gauge Shell</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>22</damageAmountBase>
+		<stoppingPower>3.1</stoppingPower>
+		<armorPenetrationBase>0.16</armorPenetrationBase>
+		<speed>65</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="PFBaseHumanGun">
@@ -106,7 +108,9 @@
 <graphicData>
 <texPath>Things/Fallout/Weapons/Guns/SturdyCaravanShotgun</texPath>
 <graphicClass>Graphic_Single</graphicClass>
+<onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
 </graphicData>
+<equippedAngleOffset>45</equippedAngleOffset>
 <soundInteract>Interact_Shotgun</soundInteract>
 <thingSetMakerTags>
 <li>RewardSpecial</li>
@@ -157,20 +161,20 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFHuntingShotgun</defName>
-<label>12 Gauge Shell</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Shotgun</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>25</damageAmountBase>
-<stoppingPower>3.1</stoppingPower>
-<armorPenetrationBase>0.16</armorPenetrationBase>
-<speed>65</speed>
-</projectile>
+	<defName>Bullet_PFHuntingShotgun</defName>
+	<label>12 Gauge Shell</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>25</damageAmountBase>
+		<stoppingPower>3.1</stoppingPower>
+		<armorPenetrationBase>0.16</armorPenetrationBase>
+		<speed>65</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="PFBaseHumanMakeableGun">
@@ -180,7 +184,9 @@
 <graphicData>
 <texPath>Things/Fallout/Weapons/Guns/HuntingShotgun</texPath>
 <graphicClass>Graphic_Single</graphicClass>
+<onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
 </graphicData>
+<equippedAngleOffset>45</equippedAngleOffset>
 <soundInteract>Interact_Shotgun</soundInteract>
 <recipeMaker>
 	<skillRequirements>
@@ -238,20 +244,20 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFDinnerBell</defName>
-<label>12 Gauge Shell</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Shotgun</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>26</damageAmountBase>
-<stoppingPower>3.1</stoppingPower>
-<armorPenetrationBase>0.17</armorPenetrationBase>
-<speed>70</speed>
-</projectile>
+	<defName>Bullet_PFDinnerBell</defName>
+	<label>12 Gauge Shell</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>26</damageAmountBase>
+		<stoppingPower>3.1</stoppingPower>
+		<armorPenetrationBase>0.17</armorPenetrationBase>
+		<speed>70</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="PFBaseHumanGun">
@@ -261,7 +267,9 @@
 <graphicData>
 <texPath>Things/Fallout/Weapons/Guns/DinnerBell</texPath>
 <graphicClass>Graphic_Single</graphicClass>
+<onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
 </graphicData>
+<equippedAngleOffset>45</equippedAngleOffset>
 <soundInteract>Interact_Shotgun</soundInteract>
 <thingSetMakerTags>
 <li>RewardSpecial</li>
@@ -312,20 +320,20 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFLeverActionShotgun</defName>
-<label>20 Gauge Shell</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Shotgun</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>17</damageAmountBase>
-<stoppingPower>3</stoppingPower>
-<armorPenetrationBase>0.13</armorPenetrationBase>
-<speed>65</speed>
-</projectile>
+	<defName>Bullet_PFLeverActionShotgun</defName>
+	<label>20 Gauge Shell</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>17</damageAmountBase>
+		<stoppingPower>3</stoppingPower>
+		<armorPenetrationBase>0.13</armorPenetrationBase>
+		<speed>65</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="PFBaseHumanMakeableGun">
@@ -392,20 +400,20 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFSawedOffShotgun</defName>
-<label>12 Gauge Shell</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Shotgun</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>25</damageAmountBase>
-<stoppingPower>3.1</stoppingPower>
-<armorPenetrationBase>0.16</armorPenetrationBase>
-<speed>65</speed>
-</projectile>
+	<defName>Bullet_PFSawedOffShotgun</defName>
+	<label>12 Gauge Shell</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>25</damageAmountBase>
+		<stoppingPower>3.1</stoppingPower>
+		<armorPenetrationBase>0.16</armorPenetrationBase>
+		<speed>65</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="PFBaseHumanMakeableGun">
@@ -474,20 +482,20 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFBigBoomer</defName>
-<label>12 Gauge Shell</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Shotgun</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>28</damageAmountBase>
-<stoppingPower>3.2</stoppingPower>
-<armorPenetrationBase>0.2</armorPenetrationBase>
-<speed>70</speed>
-</projectile>
+	<defName>Bullet_PFBigBoomer</defName>
+	<label>12 Gauge Shell</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>28</damageAmountBase>
+		<stoppingPower>3.2</stoppingPower>
+		<armorPenetrationBase>0.2</armorPenetrationBase>
+		<speed>70</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="PFBaseHumanGun">
@@ -550,20 +558,20 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFSingleShotgun</defName>
-<label>20 Gauge Shell</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Shotgun</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>25</damageAmountBase>
-<stoppingPower>3.15</stoppingPower>
-<armorPenetrationBase>0.15</armorPenetrationBase>
-<speed>65</speed>
-</projectile>
+	<defName>Bullet_PFSingleShotgun</defName>
+	<label>20 Gauge Shell</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>25</damageAmountBase>
+		<stoppingPower>3.15</stoppingPower>
+		<armorPenetrationBase>0.15</armorPenetrationBase>
+		<speed>65</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="PFBaseHumanMakeableGun">
@@ -573,7 +581,9 @@
 <graphicData>
 <texPath>Things/Fallout/Weapons/Guns/SingleShotgun</texPath>
 <graphicClass>Graphic_Single</graphicClass>
+<onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
 </graphicData>
+<equippedAngleOffset>45</equippedAngleOffset>
 <soundInteract>Interact_Shotgun</soundInteract>
 <recipeMaker>
 	<skillRequirements>
@@ -630,20 +640,20 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-<defName>Bullet_PFRiotShotgun</defName>
-<label>12 Gauge Shell</label>
-<graphicData>
-<texPath>Things/Projectile/Bullet_Shotgun</texPath>
-<graphicClass>Graphic_Single</graphicClass>
-</graphicData>
-<projectile>
-<flyOverhead>false</flyOverhead>
-<damageDef>Bullet</damageDef>
-<damageAmountBase>17</damageAmountBase>
-<stoppingPower>3</stoppingPower>
-<armorPenetrationBase>0.14</armorPenetrationBase>
-<speed>65</speed>
-</projectile>
+	<defName>Bullet_PFRiotShotgun</defName>
+	<label>12 Gauge Shell</label>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<projectile>
+		<flyOverhead>false</flyOverhead>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>17</damageAmountBase>
+		<stoppingPower>3</stoppingPower>
+		<armorPenetrationBase>0.14</armorPenetrationBase>
+		<speed>65</speed>
+	</projectile>
 </ThingDef>
 
 <ThingDef ParentName="PFBaseHumanMakeableGun">
@@ -653,7 +663,9 @@
 <graphicData>
 <texPath>Things/Fallout/Weapons/Guns/RiotShotgun</texPath>
 <graphicClass>Graphic_Single</graphicClass>
+<onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
 </graphicData>
+<equippedAngleOffset>45</equippedAngleOffset>
 <soundInteract>Interact_Shotgun</soundInteract>
 <recipeMaker>
 	<skillRequirements>

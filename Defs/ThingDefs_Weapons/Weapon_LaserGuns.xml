@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<ThingDef Abstract="True" Name="BaseLaserGun" ParentName="PFBaseGun">
+	<ThingDef Abstract="True" Name="BaseLaserGun" ParentName="PFBaseHumanGun">
 		<weaponTags>
 				<li>SpacerGun</li>
 				<li>IndustrialGunAdvanced</li>
 		</weaponTags>
 	</ThingDef>
 
-	<ThingDef Abstract="True" Name="BaseLaserMakeableGun" ParentName="PFBaseMakeableGun">
+	<ThingDef Abstract="True" Name="BaseLaserMakeableGun" ParentName="PFBaseHumanMakeableGun">
 		<weaponTags>
 			<li>SpacerGun</li>
 			<li>IndustrialGunAdvanced</li>
@@ -533,7 +533,9 @@
 		<graphicData>
 			<texPath>Things/Fallout/Weapons/Guns/LaserGatling</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
 		</graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
 		<soundInteract>InteractLaserGatling</soundInteract>
 		<thingCategories>
 			<li>PFLaserHeavy</li>
@@ -626,7 +628,9 @@
 		<graphicData>
 			<texPath>Things/Fallout/Weapons/Guns/LaserSniper</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
 		</graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
 		<soundInteract>InteractPFLaserRifle</soundInteract>
 		<thingCategories>
 			<li>PFLaserRifles</li>
@@ -713,7 +717,9 @@
 		<graphicData>
 			<texPath>Things/Fallout/Weapons/Guns/LaserMusket</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
 		</graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
 		<soundInteract>InteractPFLaserRifle</soundInteract>
 		<thingCategories>
 			<li>PFLaserRifles</li>
