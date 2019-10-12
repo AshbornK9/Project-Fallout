@@ -377,16 +377,14 @@
 				<MeleeHitChance>0.05</MeleeHitChance>
 			</statOffsets>
 		</li>
-<!-- Temp Removing this because its really not necessary
 		<li>
 			<label>Pack Rat</label>
 			<description>{PAWN_nameDef} may as well have built-in pockets. They can carry much more stuff than a typical person. </description>
 			<degree>2</degree>
 			<statOffsets>
-				<CarryingCapacity>10</CarryingCapacity>
+				<CarryingCapacity>100</CarryingCapacity>
 			</statOffsets>
 		</li>
--->
 	</degreeDatas>
 </TraitDef>
 
@@ -658,7 +656,7 @@
 				<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 				<ImmunityGainSpeed>0.10</ImmunityGainSpeed>
 				<ToxicSensitivity>-0.15</ToxicSensitivity>
-
+				<ForagedNutritionPerDay>0.40</ForagedNutritionPerDay>
 			</statOffsets>
 		</li>
 	</degreeDatas>
